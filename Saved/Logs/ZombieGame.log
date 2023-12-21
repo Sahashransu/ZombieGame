@@ -2237,3 +2237,785 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.21-11.56.07:221][104]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
 [2023.12.21-11.56.07:221][104]SourceControl:  create mode 100644 Content/ThirdPerson/EnhancedInput/IA_Aim.uasset
 [2023.12.21-11.56.07:237][104]SourceControl: Commited [main aa26780] Aiming Implemented.
+[2023.12.21-11.57.45:213][888]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-11.57.45:245][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-11.57.45:245][888]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-11.57.45:486][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-11.57.45:486][888]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-11.57.45:863][888]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2023.12.21-11.57.46:026][888]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.12.21-11.57.46:772][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-11.57.46:772][888]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-11.57.47:170][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-11.57.47:312][888]LogSlate: Took 0.019938 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.12.21-11.57.47:326][888]LogViewport: Scene viewport resized to 476x407, mode Windowed.
+[2023.12.21-11.57.47:620][888]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.12.21-11.58.31:876][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.12.21-11.58.31:878][955]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Test_Map' took 0.030
+[2023.12.21-11.58.31:878][955]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Character/BP_TPCharacter] ([2] browsable assets)...
+[2023.12.21-11.58.31:878][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Character/BP_TPCharacter]
+[2023.12.21-11.58.31:895][955]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Character/BP_TPCharacter_Auto2
+[2023.12.21-11.58.31:895][955]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacter_Auto2E19023F54F52CCE6935881BD017B0752.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/Autosaves/Game/ThirdPerson/Character/BP_TPCharacter_Auto2.uasset'
+[2023.12.21-11.58.31:896][955]LogFileHelpers: Auto-saving content packages took 0.018
+[2023.12.21-12.08.26:071][398]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-12.08.26:148][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.12.21-12.08.26:872][441]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-12.08.26:913][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-12.08.26:992][441]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-12.08.26:993][441]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacterEB8599E146FD218B15048887D91D72B4.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-12.08.27:004][441]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 2.39 sec)
+[2023.12.21-12.08.27:012][441]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-12.08.27:012][441]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-12.08.32:479][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.12.21-12.08.32:482][962]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Test_Map' took 0.026
+[2023.12.21-12.08.32:482][962]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Character/BP_TPCharacter] ([2] browsable assets)...
+[2023.12.21-12.08.32:482][962]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Character/BP_TPCharacter]
+[2023.12.21-12.08.32:495][962]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Character/BP_TPCharacter_Auto3
+[2023.12.21-12.08.32:495][962]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacter_Auto3743AE2EB4A498FDFA1DD61A19A9BCC1D.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/Autosaves/Game/ThirdPerson/Character/BP_TPCharacter_Auto3.uasset'
+[2023.12.21-12.08.32:496][962]LogFileHelpers: Auto-saving content packages took 0.015
+[2023.12.21-12.31.57:534][183]LogViewport: Scene viewport resized to 476x431, mode Windowed.
+[2023.12.21-12.31.58:593][185]LogViewport: Scene viewport resized to 476x407, mode Windowed.
+[2023.12.21-12.34.44:959][741]LogDerivedDataCache: C:/Users/OM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.158 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3234 files in 4503 folders with total size 935 MiB.
+[2023.12.21-12.44.44:621][649]BlueprintLog: New page: Compile BP_TPCharacter
+[2023.12.21-12.44.44:709][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.12.21-12.44.45:418][713]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-12.44.45:464][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2023.12.21-12.44.45:494][713]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2023.12.21-12.44.45:495][713]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacterDD9BA54847F23349E044318534723735.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2023.12.21-12.44.45:503][713]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 2.47 sec)
+[2023.12.21-12.44.45:510][713]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2023.12.21-12.44.45:510][713]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2023.12.21-12.44.46:702][841]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.21-12.44.46:710][841]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.21-12.44.46:711][841]PIE: New page: PIE session: Test_Map (21-Dec-2023, 2:44:46 pm)
+[2023.12.21-12.44.46:739][841]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-12.44.46:742][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003245s)
+[2023.12.21-12.44.46:742][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.003355s)
+[2023.12.21-12.44.46:742][841]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-12.44.46:742][841]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-12.44.46:742][841]LogAIModule: Creating AISystem for world Test_Map
+[2023.12.21-12.44.46:743][841]LogPlayLevel: PIE: World Init took: (0.001548s)
+[2023.12.21-12.44.46:769][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.12.21-12.44.46:773][841]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.12.21-12.44.46:773][841]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.21-12.44.46:773][841]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.21-12.44.46:773][841]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.21-12.44.46:773][841]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.21-12.44.46:773][841]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.21-12.44.46:773][841]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.21-12.44.46:773][841]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.21-12.44.46:773][841]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.21-12.44.46:774][841]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.21-12.44.46:774][841]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.21-12.44.46:774][841]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.21-12.44.46:776][841]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.21-12.44.46:797][841]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2023.12.21-12.44.46:798][841]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.21-12.44.46:798][841]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.21-12.44.46:798][841]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.21-12.44.46:798][841]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.12.21-12.44.46:798][841]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.12.21-12.44.46:800][841]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.12.21-12.44.46:800][841]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.12.21-12.44.46:800][841]LogInit: FAudioDevice initialized with ID 18.
+[2023.12.21-12.44.46:800][841]LogAudio: Display: Audio Device (ID: 18) registered with world 'Test_Map'.
+[2023.12.21-12.44.46:800][841]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2023.12.21-12.44.46:806][841]LogLoad: Game class is 'BP_GameModeTP_C'
+[2023.12.21-12.44.46:806][841]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2023.12.21-13.44.46
+[2023.12.21-12.44.46:806][841]LogWorld: Bringing up level for play took: 0.000652
+[2023.12.21-12.44.46:809][841]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.12.21-12.44.46:812][841]PIE: Server logged in
+[2023.12.21-12.44.46:813][841]PIE: Play in editor total start time 0.103 seconds.
+[2023.12.21-12.44.52:839][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-12.44.52:839][537]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-12.44.52:839][537]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2023.12.21-12.44.52:839][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-12.44.52:843][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.21-12.44.52:848][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-12.44.52:872][537]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.21-12.44.52:873][537]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.12.21-12.44.52:873][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.12.21-12.44.52:875][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.12.21-12.44.52:879][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-12.44.52:882][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.12.21-12.44.52:915][538]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.12.21-12.50.31:549][196]BlueprintLog: New page: Compile BP_TPCharacter
+[2023.12.21-12.50.31:696][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.12.21-12.50.32:729][247]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-12.50.32:794][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2023.12.21-12.50.32:809][247]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2023.12.21-12.50.32:809][247]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacterD22A0D2E4B7FB9CF8B8BEF8421956A73.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2023.12.21-12.50.32:817][247]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 2.56 sec)
+[2023.12.21-12.50.32:823][247]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2023.12.21-12.50.32:823][247]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2023.12.21-12.50.34:672][402]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.21-12.50.34:679][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.21-12.50.34:679][402]PIE: New page: PIE session: Test_Map (21-Dec-2023, 2:50:34 pm)
+[2023.12.21-12.50.34:679][402]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-12.50.34:682][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002480s)
+[2023.12.21-12.50.34:682][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.002563s)
+[2023.12.21-12.50.34:682][402]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-12.50.34:682][402]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-12.50.34:683][402]LogAIModule: Creating AISystem for world Test_Map
+[2023.12.21-12.50.34:683][402]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2023.12.21-12.50.34:707][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.12.21-12.50.34:709][402]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.12.21-12.50.34:709][402]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.21-12.50.34:709][402]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.21-12.50.34:709][402]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.21-12.50.34:709][402]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.21-12.50.34:709][402]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.21-12.50.34:709][402]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.21-12.50.34:709][402]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.21-12.50.34:709][402]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.21-12.50.34:709][402]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.21-12.50.34:709][402]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.21-12.50.34:709][402]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.21-12.50.34:712][402]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.21-12.50.34:733][402]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2023.12.21-12.50.34:733][402]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.21-12.50.34:733][402]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.21-12.50.34:733][402]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.21-12.50.34:735][402]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.12.21-12.50.34:735][402]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.12.21-12.50.34:736][402]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.12.21-12.50.34:736][402]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.12.21-12.50.34:736][402]LogInit: FAudioDevice initialized with ID 19.
+[2023.12.21-12.50.34:736][402]LogAudio: Display: Audio Device (ID: 19) registered with world 'Test_Map'.
+[2023.12.21-12.50.34:736][402]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.21-12.50.34:739][402]LogLoad: Game class is 'BP_GameModeTP_C'
+[2023.12.21-12.50.34:740][402]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2023.12.21-13.50.34
+[2023.12.21-12.50.34:740][402]LogWorld: Bringing up level for play took: 0.000555
+[2023.12.21-12.50.34:742][402]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.12.21-12.50.34:744][402]PIE: Server logged in
+[2023.12.21-12.50.34:746][402]PIE: Play in editor total start time 0.067 seconds.
+[2023.12.21-12.50.36:744][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-12.50.36:746][614]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-12.50.36:746][614]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2023.12.21-12.50.36:746][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-12.50.36:749][614]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.21-12.50.36:755][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-12.50.36:779][614]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.21-12.50.36:779][614]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.21-12.50.36:779][614]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.21-12.50.36:781][614]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.21-12.50.36:785][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-12.50.36:788][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.12.21-12.50.36:818][615]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.12.21-12.50.39:549][843]BlueprintLog: New page: Compile BP_TPCharacter
+[2023.12.21-12.50.39:668][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.12.21-12.50.40:330][869]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-12.50.40:382][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2023.12.21-12.50.40:395][869]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2023.12.21-12.50.40:396][869]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacterA3607B7C4BF76C677A91EF8D6CB73C6F.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2023.12.21-12.50.40:405][869]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 2.63 sec)
+[2023.12.21-12.50.40:412][869]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2023.12.21-12.50.40:412][869]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2023.12.21-12.50.45:186][234]BlueprintLog: New page: Compile BP_TPCharacter
+[2023.12.21-12.50.45:303][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.12.21-12.50.45:987][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-12.50.46:037][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2023.12.21-12.50.46:051][261]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2023.12.21-12.50.46:052][261]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacter2A588A4A422D43A88A27D4BA2F4AF91F.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2023.12.21-12.50.46:060][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 2.71 sec)
+[2023.12.21-12.50.46:068][261]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2023.12.21-12.50.46:069][261]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2023.12.21-12.50.47:103][370]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.21-12.50.47:109][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.21-12.50.47:109][370]PIE: New page: PIE session: Test_Map (21-Dec-2023, 2:50:47 pm)
+[2023.12.21-12.50.47:136][370]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-12.50.47:138][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002093s)
+[2023.12.21-12.50.47:138][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.002147s)
+[2023.12.21-12.50.47:138][370]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-12.50.47:138][370]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-12.50.47:138][370]LogAIModule: Creating AISystem for world Test_Map
+[2023.12.21-12.50.47:139][370]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2023.12.21-12.50.47:161][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.12.21-12.50.47:163][370]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.12.21-12.50.47:163][370]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.21-12.50.47:163][370]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.21-12.50.47:163][370]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.21-12.50.47:163][370]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.21-12.50.47:163][370]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.21-12.50.47:163][370]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.21-12.50.47:163][370]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.21-12.50.47:163][370]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.21-12.50.47:164][370]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.21-12.50.47:164][370]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.21-12.50.47:164][370]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.21-12.50.47:166][370]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.21-12.50.47:196][370]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2023.12.21-12.50.47:196][370]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.21-12.50.47:196][370]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.21-12.50.47:196][370]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.21-12.50.47:198][370]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.12.21-12.50.47:198][370]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.12.21-12.50.47:199][370]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.12.21-12.50.47:199][370]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.12.21-12.50.47:199][370]LogInit: FAudioDevice initialized with ID 20.
+[2023.12.21-12.50.47:199][370]LogAudio: Display: Audio Device (ID: 20) registered with world 'Test_Map'.
+[2023.12.21-12.50.47:199][370]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.21-12.50.47:202][370]LogLoad: Game class is 'BP_GameModeTP_C'
+[2023.12.21-12.50.47:203][370]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2023.12.21-13.50.47
+[2023.12.21-12.50.47:203][370]LogWorld: Bringing up level for play took: 0.000562
+[2023.12.21-12.50.47:205][370]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.12.21-12.50.47:207][370]PIE: Server logged in
+[2023.12.21-12.50.47:208][370]PIE: Play in editor total start time 0.099 seconds.
+[2023.12.21-12.50.50:226][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-12.50.50:226][715]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-12.50.50:226][715]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2023.12.21-12.50.50:226][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-12.50.50:230][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.21-12.50.50:235][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-12.50.50:259][715]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.21-12.50.50:259][715]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.21-12.50.50:259][715]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.21-12.50.50:261][715]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.21-12.50.50:264][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-12.50.50:267][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.12.21-12.50.50:297][716]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.12.21-12.50.54:589][ 72]BlueprintLog: New page: Compile BP_TPCharacter
+[2023.12.21-12.50.54:710][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.12.21-12.50.55:385][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-12.50.55:441][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2023.12.21-12.50.55:455][ 99]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2023.12.21-12.50.55:456][ 99]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacter85854C41451CE016A8395696497976A0.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2023.12.21-12.50.55:464][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 2.79 sec)
+[2023.12.21-12.50.55:470][ 99]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2023.12.21-12.50.55:470][ 99]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2023.12.21-12.56.43:817][300]BlueprintLog: New page: Compile BP_TPCharacter
+[2023.12.21-12.56.43:945][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.12.21-12.56.44:704][326]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-12.56.44:760][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2023.12.21-12.56.44:774][326]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2023.12.21-12.56.44:774][326]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacterDE047F84474976240DBB9BB71226D40D.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2023.12.21-12.56.44:783][326]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 2.86 sec)
+[2023.12.21-12.56.44:790][326]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2023.12.21-12.56.44:790][326]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2023.12.21-12.56.45:771][414]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.21-12.56.45:778][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.21-12.56.45:778][414]PIE: New page: PIE session: Test_Map (21-Dec-2023, 2:56:45 pm)
+[2023.12.21-12.56.45:811][414]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-12.56.45:813][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002145s)
+[2023.12.21-12.56.45:813][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.002194s)
+[2023.12.21-12.56.45:813][414]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-12.56.45:813][414]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-12.56.45:813][414]LogAIModule: Creating AISystem for world Test_Map
+[2023.12.21-12.56.45:814][414]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2023.12.21-12.56.45:837][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.12.21-12.56.45:838][414]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.12.21-12.56.45:838][414]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.21-12.56.45:838][414]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.21-12.56.45:838][414]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.21-12.56.45:838][414]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.21-12.56.45:838][414]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.21-12.56.45:838][414]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.21-12.56.45:838][414]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.21-12.56.45:838][414]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.21-12.56.45:838][414]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.21-12.56.45:838][414]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.21-12.56.45:838][414]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.21-12.56.45:841][414]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.21-12.56.45:863][414]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2023.12.21-12.56.45:863][414]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.21-12.56.45:863][414]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.21-12.56.45:863][414]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.21-12.56.45:864][414]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.12.21-12.56.45:864][414]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.12.21-12.56.45:866][414]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.12.21-12.56.45:866][414]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.12.21-12.56.45:866][414]LogInit: FAudioDevice initialized with ID 21.
+[2023.12.21-12.56.45:866][414]LogAudio: Display: Audio Device (ID: 21) registered with world 'Test_Map'.
+[2023.12.21-12.56.45:866][414]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.21-12.56.45:869][414]LogLoad: Game class is 'BP_GameModeTP_C'
+[2023.12.21-12.56.45:869][414]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2023.12.21-13.56.45
+[2023.12.21-12.56.45:870][414]LogWorld: Bringing up level for play took: 0.000663
+[2023.12.21-12.56.45:872][414]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.12.21-12.56.45:874][414]PIE: Server logged in
+[2023.12.21-12.56.45:875][414]PIE: Play in editor total start time 0.097 seconds.
+[2023.12.21-12.56.56:212][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-12.56.56:212][628]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-12.56.56:212][628]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2023.12.21-12.56.56:212][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-12.56.56:216][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.21-12.56.56:222][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-12.56.56:244][628]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.21-12.56.56:244][628]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.21-12.56.56:244][628]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.21-12.56.56:246][628]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.21-12.56.56:250][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-12.56.56:253][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.12.21-12.56.56:291][630]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.12.21-12.59.29:809][572]BlueprintLog: New page: Compile BP_TPCharacter
+[2023.12.21-12.59.29:884][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.12.21-12.59.30:484][617]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-12.59.30:540][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2023.12.21-12.59.30:554][617]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2023.12.21-12.59.30:555][617]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacter71EF11FE4D958BDA848ECFA799CD1949.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2023.12.21-12.59.30:563][617]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 2.94 sec)
+[2023.12.21-12.59.30:570][617]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2023.12.21-12.59.30:570][617]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2023.12.21-12.59.31:464][699]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.21-12.59.31:471][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.21-12.59.31:471][699]PIE: New page: PIE session: Test_Map (21-Dec-2023, 2:59:31 pm)
+[2023.12.21-12.59.31:471][699]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-12.59.31:473][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002136s)
+[2023.12.21-12.59.31:474][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.002183s)
+[2023.12.21-12.59.31:474][699]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-12.59.31:474][699]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-12.59.31:474][699]LogAIModule: Creating AISystem for world Test_Map
+[2023.12.21-12.59.31:474][699]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2023.12.21-12.59.31:499][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.12.21-12.59.31:502][699]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.12.21-12.59.31:502][699]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.21-12.59.31:502][699]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.21-12.59.31:502][699]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.21-12.59.31:502][699]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.21-12.59.31:502][699]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.21-12.59.31:502][699]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.21-12.59.31:502][699]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.21-12.59.31:502][699]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.21-12.59.31:503][699]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.21-12.59.31:503][699]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.21-12.59.31:503][699]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.21-12.59.31:505][699]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.21-12.59.31:528][699]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2023.12.21-12.59.31:528][699]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.21-12.59.31:528][699]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.21-12.59.31:528][699]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.21-12.59.31:529][699]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.12.21-12.59.31:529][699]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.12.21-12.59.31:531][699]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.12.21-12.59.31:531][699]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.12.21-12.59.31:531][699]LogInit: FAudioDevice initialized with ID 22.
+[2023.12.21-12.59.31:531][699]LogAudio: Display: Audio Device (ID: 22) registered with world 'Test_Map'.
+[2023.12.21-12.59.31:531][699]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.21-12.59.31:534][699]LogLoad: Game class is 'BP_GameModeTP_C'
+[2023.12.21-12.59.31:534][699]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2023.12.21-13.59.31
+[2023.12.21-12.59.31:534][699]LogWorld: Bringing up level for play took: 0.000556
+[2023.12.21-12.59.31:537][699]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.12.21-12.59.31:538][699]PIE: Server logged in
+[2023.12.21-12.59.31:539][699]PIE: Play in editor total start time 0.068 seconds.
+[2023.12.21-13.00.00:189][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-13.00.00:189][112]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-13.00.00:189][112]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2023.12.21-13.00.00:189][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-13.00.00:193][112]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.21-13.00.00:199][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-13.00.00:221][112]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.21-13.00.00:222][112]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.21-13.00.00:222][112]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.21-13.00.00:224][112]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.21-13.00.00:227][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-13.00.00:230][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.12.21-13.00.00:259][113]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.12.21-13.34.46:056][154]LogDerivedDataCache: C:/Users/OM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.112 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3234 files in 4503 folders with total size 935 MiB.
+[2023.12.21-13.35.14:700][240]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (BTS-10), InstanceID=1
+[2023.12.21-13.35.14:938][240]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=16116
+[2023.12.21-13.35.15:273][241]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{b1a028ba-834f-421d-8f79-c3bf264b5c04}, Name=Headphones (BTS-10)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=19.98
+[2023.12.21-13.35.15:273][241]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.12.21-13.35.15:275][241]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.12.21-13.46.47:205][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.12.21-13.46.47:207][ 40]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Test_Map' took 0.030
+[2023.12.21-13.46.47:208][ 40]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Character/BP_TPCharacter] ([2] browsable assets)...
+[2023.12.21-13.46.47:272][ 40]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter]
+[2023.12.21-13.46.47:272][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Character/BP_TPCharacter]
+[2023.12.21-13.46.47:285][ 40]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Character/BP_TPCharacter_Auto4
+[2023.12.21-13.46.47:285][ 40]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacter_Auto43E92D5BA44E4D4F58A99F39CA06B1BBE.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/Autosaves/Game/ThirdPerson/Character/BP_TPCharacter_Auto4.uasset'
+[2023.12.21-13.46.47:286][ 40]LogFileHelpers: Auto-saving content packages took 0.079
+[2023.12.21-13.50.10:129][388]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-13.50.10:170][388]LogBlueprint: Error: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] The property associated with  Turn Right?  could not be found in '/Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter_C'
+[2023.12.21-13.50.10:170][388]LogBlueprint: Error: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] The property associated with  Turn Left  could not be found in '/Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter_C'
+[2023.12.21-13.50.10:196][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.12.21-13.50.15:685][  8]BlueprintLog: New page: Compile BP_TPCharacter
+[2023.12.21-13.50.15:763][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.12.21-13.50.16:431][ 68]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-13.50.16:487][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2023.12.21-13.50.16:501][ 68]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2023.12.21-13.50.16:502][ 68]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacter158AAD77461EC7BB64AA8EBC5AB38C26.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2023.12.21-13.50.16:511][ 68]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 3.02 sec)
+[2023.12.21-13.50.16:519][ 68]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2023.12.21-13.50.16:519][ 68]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2023.12.21-13.50.17:961][224]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-13.50.18:011][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.12.21-13.50.19:044][323]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-13.50.19:084][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-13.50.19:111][323]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-13.50.19:111][323]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacter3944E3AF462E47E5631DCCA0D84F12A8.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-13.50.19:121][323]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 3.10 sec)
+[2023.12.21-13.50.19:129][323]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-13.50.19:129][323]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-13.50.27:375][195]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-13.50.27:403][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-13.50.27:430][195]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-13.50.27:430][195]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacterCEF145234C72248F68A5B591C5826BC8.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-13.50.27:439][195]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 3.16 sec)
+[2023.12.21-13.50.27:445][195]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-13.50.27:445][195]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-13.50.28:326][277]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-13.50.28:379][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.12.21-13.50.29:050][326]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-13.50.29:110][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-13.50.29:137][326]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-13.50.29:137][326]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacter4CF17D7745A8ACDE2594AC8C2DE16418.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-13.50.29:145][326]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 3.26 sec)
+[2023.12.21-13.50.29:152][326]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-13.50.29:152][326]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-13.50.30:773][483]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2023.12.21-13.51.37:339][512]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-13.51.37:347][512]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Turn Left to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.51.37:347][512]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Idle to Turn Right  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.51.37:347][512]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Turn Right to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.51.37:401][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.12.21-13.51.51:519][144]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/Idle_Turn_Left.Idle_Turn_Left
+[2023.12.21-13.51.51:631][144]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-13.51.51:735][145]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/Idle_Turn_Left.Idle_Turn_Left, at AnimationSequence/1dd288321a7d9b03c9c9e2761ba71c046227c21d
+[2023.12.21-13.51.59:121][909]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-13.51.59:129][909]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Turn Left to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.51.59:130][909]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Idle to Turn Right  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.51.59:130][909]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Turn Right to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.51.59:176][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.12.21-13.52.03:393][365]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/Idle_Turn_Right.Idle_Turn_Right
+[2023.12.21-13.52.03:460][367]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/Idle_Turn_Right.Idle_Turn_Right, at AnimationSequence/13867c679ca97895a0e4041ec5e5dd488d2b03c6
+[2023.12.21-13.52.07:888][827]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-13.52.07:897][827]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Turn Left to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.52.07:898][827]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Idle to Turn Right  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.52.07:898][827]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Turn Right to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.52.07:943][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.12.21-13.52.08:650][894]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-13.52.08:688][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-13.52.08:722][894]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-13.52.08:723][894]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacter7FC279304E452795016680830D44900A.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-13.52.08:731][894]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 3.34 sec)
+[2023.12.21-13.52.08:738][894]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-13.52.08:739][894]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-13.52.34:069][543]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-13.52.34:078][543]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Turn Left to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.52.34:078][543]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Turn Right to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.52.34:126][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.12.21-13.52.35:296][666]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-13.52.35:340][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-13.52.35:375][666]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-13.52.35:376][666]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacterC786A6B446D7EBAD4DBCDFA61B8A72A6.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-13.52.35:384][666]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 3.43 sec)
+[2023.12.21-13.52.35:391][666]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-13.52.35:392][666]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-13.53.24:184][798]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::EqualEqual_DoubleDouble' [Element not found.]
+[2023.12.21-13.53.29:338][299]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-13.53.29:347][299]LogBlueprint: Warning: [AssetLog] E:\Unreal Projects\UE5\ZombieGame\ZombieGame\Content\ThirdPerson\Character\ABP_TPCharacter.uasset: [Compiler] Turn Left to Idle  will never be taken, please connect something to  Can Enter Transition
+[2023.12.21-13.53.29:397][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.12.21-13.53.30:044][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-13.53.30:085][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-13.53.30:121][356]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-13.53.30:122][356]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacter64DCDD82456E98BE927B0FA93FC87CD0.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-13.53.30:130][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 3.51 sec)
+[2023.12.21-13.53.30:138][356]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-13.53.30:138][356]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-13.54.19:721][564]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-13.54.19:786][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.12.21-13.54.20:430][623]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-13.54.20:477][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-13.54.20:515][623]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-13.54.20:515][623]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacterB660B1C640DF123F234DA692C1336A68.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-13.54.20:525][623]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 3.61 sec)
+[2023.12.21-13.54.20:534][623]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-13.54.20:534][623]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-13.55.04:060][460]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-13.55.04:132][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.12.21-13.55.04:698][506]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-13.55.04:740][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-13.55.04:778][506]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-13.55.04:779][506]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacter9FC4F3E64CDBAA601824138A49F1AE6E.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-13.55.04:788][506]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 3.70 sec)
+[2023.12.21-13.55.04:795][506]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-13.55.04:795][506]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-13.55.19:716][ 46]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-13.55.19:781][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.12.21-13.55.20:700][132]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-13.55.20:742][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-13.55.20:782][132]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-13.55.20:782][132]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacter5E2FAFCB456037589048BEA21AACDC3F.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-13.55.20:792][132]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 3.79 sec)
+[2023.12.21-13.55.20:801][132]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-13.55.20:801][132]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-13.56.32:923][825]BlueprintLog: New page: Compile BP_TPCharacter
+[2023.12.21-13.56.33:032][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.12.21-13.56.34:438][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-13.56.34:497][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2023.12.21-13.56.34:511][958]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2023.12.21-13.56.34:511][958]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacter39EF11244C26D84474AFD49E5AEF9FAC.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2023.12.21-13.56.34:519][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 3.87 sec)
+[2023.12.21-13.56.34:527][958]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2023.12.21-13.56.34:527][958]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2023.12.21-13.59.56:727][449]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-14.00.00:103][731]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-14.00.00:943][731]LogSlate: Window 'Pick Skeleton' being destroyed
+[2023.12.21-14.00.00:953][731]LogContentBrowser: Deferred new asset file creation: NewAimOffsetBlendSpace
+[2023.12.21-14.00.00:959][731]LogContentBrowser: Creating deferred item: NewAimOffsetBlendSpace
+[2023.12.21-14.00.00:971][732]LogContentBrowser: Renaming the item being created (Deferred Item: NewAimOffsetBlendSpace).
+[2023.12.21-14.00.11:635][ 12]LogContentBrowser: Attempting asset rename: NewAimOffsetBlendSpace -> AO_TPCharacter
+[2023.12.21-14.00.11:733][ 12]LogContentBrowser: End creating deferred item NewAimOffsetBlendSpace
+[2023.12.21-14.00.13:392][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.12.21-14.00.14:210][202]LogSlate: Window 'Save Content' being destroyed
+[2023.12.21-14.00.14:299][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-14.00.14:358][202]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/Animation/AO_TPCharacter
+[2023.12.21-14.00.14:358][202]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/AO_TPCharacter1DAC68374A02085D827C2AAC8BA3EFB8.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/Animation/AO_TPCharacter.uasset'
+[2023.12.21-14.00.14:543][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 243 ms (total: 4.12 sec)
+[2023.12.21-14.00.14:552][202]AssetCheck: New page: Asset Save: AO_TPCharacter
+[2023.12.21-14.00.14:552][202]LogContentValidation: Display: Validating /Script/Engine.AimOffsetBlendSpace /Game/ThirdPerson/Character/Animation/AO_TPCharacter.AO_TPCharacter
+[2023.12.21-14.00.15:400][293]LogAssetEditorSubsystem: Opening Asset editor for AimOffsetBlendSpace /Game/ThirdPerson/Character/Animation/AO_TPCharacter.AO_TPCharacter
+[2023.12.21-14.00.15:423][293]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-14.00.15:423][293]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-14.00.15:430][293]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.12.21-14.00.15:710][293]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-14.00.15:710][293]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-14.00.15:983][293]LogViewport: Scene viewport resized to 1200x513, mode Windowed.
+[2023.12.21-14.00.16:024][293]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.12.21-14.02.50:082][267]LogViewport: Scene viewport resized to 1198x527, mode Windowed.
+[2023.12.21-14.02.50:150][269]LogViewport: Scene viewport resized to 585x225, mode Windowed.
+[2023.12.21-14.02.50:187][270]LogViewport: Scene viewport resized to 491x179, mode Windowed.
+[2023.12.21-14.02.50:337][279]LogViewport: Scene viewport resized to 1200x513, mode Windowed.
+[2023.12.21-14.02.50:943][336]LogViewport: Scene viewport resized to 476x432, mode Windowed.
+[2023.12.21-14.02.50:967][336]LogViewport: Scene viewport resized to 1198x527, mode Windowed.
+[2023.12.21-14.02.50:998][337]LogViewport: Scene viewport resized to 476x422, mode Windowed.
+[2023.12.21-14.02.51:041][338]LogViewport: Scene viewport resized to 476x413, mode Windowed.
+[2023.12.21-14.02.51:058][338]LogViewport: Scene viewport resized to 491x179, mode Windowed.
+[2023.12.21-14.02.51:077][339]LogViewport: Scene viewport resized to 476x407, mode Windowed.
+[2023.12.21-14.02.51:356][358]LogViewport: Scene viewport resized to 1200x513, mode Windowed.
+[2023.12.21-14.02.51:799][401]LogSlate: Window 'AO_TPCharacter' being destroyed
+[2023.12.21-14.02.51:816][401]LogViewport: Scene viewport resized to 1200x543, mode Windowed.
+[2023.12.21-14.02.51:838][402]LogViewport: Scene viewport resized to 1200x538, mode Windowed.
+[2023.12.21-14.02.51:865][403]LogViewport: Scene viewport resized to 1200x533, mode Windowed.
+[2023.12.21-14.02.51:891][404]LogViewport: Scene viewport resized to 1200x526, mode Windowed.
+[2023.12.21-14.02.51:913][405]LogViewport: Scene viewport resized to 1200x522, mode Windowed.
+[2023.12.21-14.02.51:937][406]LogViewport: Scene viewport resized to 1200x516, mode Windowed.
+[2023.12.21-14.02.51:960][407]LogViewport: Scene viewport resized to 1200x513, mode Windowed.
+[2023.12.21-14.03.43:335][853]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_CC.AO_CC
+[2023.12.21-14.03.53:857][855]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2023.12.21-14.04.29:501][109]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_CD.AO_CD
+[2023.12.21-14.04.44:469][562]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_CU.AO_CU
+[2023.12.21-14.06.06:199][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.12.21-14.06.06:206][348]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Test_Map' took 0.062
+[2023.12.21-14.06.06:206][348]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Character/Animation/AO_TPCharacter] ([1] browsable assets)...
+[2023.12.21-14.06.06:216][348]OBJ SavePackage:     Rendered thumbnail for [AimOffsetBlendSpace /Game/ThirdPerson/Character/Animation/AO_TPCharacter.AO_TPCharacter]
+[2023.12.21-14.06.06:216][348]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Character/Animation/AO_TPCharacter]
+[2023.12.21-14.06.06:218][348]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Character/Animation/AO_TPCharacter_Auto5
+[2023.12.21-14.06.06:218][348]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/AO_TPCharacter_Auto5B77F1FD54EC1E1C2023897BF68A725C7.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/Autosaves/Game/ThirdPerson/Character/Animation/AO_TPCharacter_Auto5.uasset'
+[2023.12.21-14.06.06:218][348]LogFileHelpers: Auto-saving content packages took 0.013
+[2023.12.21-14.06.08:071][504]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_LC.AO_LC
+[2023.12.21-14.06.18:813][407]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_LD.AO_LD
+[2023.12.21-14.06.21:044][596]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_LU.AO_LU
+[2023.12.21-14.06.23:419][800]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_RC.AO_RC
+[2023.12.21-14.06.26:216][ 42]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_RD.AO_RD
+[2023.12.21-14.06.28:230][213]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_RU.AO_RU
+[2023.12.21-14.07.23:798][907]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_LBC.AO_LBC
+[2023.12.21-14.07.23:822][907]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_LBC.AO_LBC, at AnimationSequence/02f366e3de522ea2e6ff82110fcb74ca43c1568e
+[2023.12.21-14.07.27:095][201]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_LBD.AO_LBD
+[2023.12.21-14.07.27:111][201]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_LBD.AO_LBD, at AnimationSequence/163f8341d7fbbcd4cbb50dcc1793c5c41c36d681
+[2023.12.21-14.07.29:338][388]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_LBU.AO_LBU
+[2023.12.21-14.07.29:357][388]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_LBU.AO_LBU, at AnimationSequence/5ddb16ff9d6a7d0db5dda2e86927ec9be06da1ad
+[2023.12.21-14.07.33:151][717]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_RBC.AO_RBC
+[2023.12.21-14.07.33:165][717]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_RBC.AO_RBC, at AnimationSequence/3428d4adba2713c75747c01edcca65fe135f1882
+[2023.12.21-14.07.35:365][906]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_RBD.AO_RBD
+[2023.12.21-14.07.35:383][906]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_RBD.AO_RBD, at AnimationSequence/9459c7301c125d715468d6007daaea38ed084eff
+[2023.12.21-14.07.37:048][ 45]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_RBU.AO_RBU
+[2023.12.21-14.07.37:063][ 45]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/AO_RBU.AO_RBU, at AnimationSequence/7f3effb9e64b2d1e7988aad2f6098a57775e9fa4
+[2023.12.21-14.08.43:580][973]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-14.08.43:625][973]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/Animation/AO_TPCharacter
+[2023.12.21-14.08.43:626][973]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/AO_TPCharacter4EB7B65D4F2F5D4E9D3B53B33AEE78DE.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/Animation/AO_TPCharacter.uasset'
+[2023.12.21-14.08.43:635][973]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 4.17 sec)
+[2023.12.21-14.08.43:642][973]AssetCheck: New page: Asset Save: AO_TPCharacter
+[2023.12.21-14.08.43:642][973]LogContentValidation: Display: Validating /Script/Engine.AimOffsetBlendSpace /Game/ThirdPerson/Character/Animation/AO_TPCharacter.AO_TPCharacter
+[2023.12.21-14.10.30:043][397]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2023.12.21-14.11.16:175][438]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-14.11.16:259][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.12.21-14.11.17:142][502]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-14.11.17:178][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-14.11.17:219][502]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-14.11.17:220][502]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacter328D0BA44AC5B6B6E47045A151A692F7.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-14.11.17:229][502]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 4.26 sec)
+[2023.12.21-14.11.17:236][502]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-14.11.17:236][502]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-14.19.04:226][608]BlueprintLog: New page: Compile BP_TPCharacter
+[2023.12.21-14.19.04:338][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.12.21-14.19.04:935][649]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-14.19.04:978][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2023.12.21-14.19.04:992][649]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2023.12.21-14.19.04:992][649]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacter0A6FA8DB482513F6A7C19A8F2151AF25.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2023.12.21-14.19.05:002][649]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 4.32 sec)
+[2023.12.21-14.19.05:010][649]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2023.12.21-14.19.05:010][649]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2023.12.21-14.20.08:911][967]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-14.20.08:978][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.12.21-14.20.09:644][  4]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-14.20.09:690][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-14.20.09:732][  4]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-14.20.09:732][  4]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacter2F01888249B9E0FD5E866BA5AB9883BB.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-14.20.09:742][  4]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 4.42 sec)
+[2023.12.21-14.20.09:749][  4]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-14.20.09:749][  4]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-14.20.24:481][215]BlueprintLog: New page: Compile ABP_TPCharacter
+[2023.12.21-14.20.24:548][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.12.21-14.20.25:356][272]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.21-14.20.25:395][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/ABP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset" SILENT=true
+[2023.12.21-14.20.25:438][272]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/ABP_TPCharacter
+[2023.12.21-14.20.25:438][272]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/ABP_TPCharacter7DB47C53406DD617377100983B486167.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/ABP_TPCharacter.uasset'
+[2023.12.21-14.20.25:448][272]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 4.51 sec)
+[2023.12.21-14.20.25:456][272]AssetCheck: New page: Asset Save: ABP_TPCharacter
+[2023.12.21-14.20.25:456][272]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Character/ABP_TPCharacter.ABP_TPCharacter
+[2023.12.21-14.20.26:468][345]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.21-14.20.26:475][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.21-14.20.26:476][345]PIE: New page: PIE session: Test_Map (21-Dec-2023, 4:20:26 pm)
+[2023.12.21-14.20.26:476][345]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-14.20.26:479][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003410s)
+[2023.12.21-14.20.26:479][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.003472s)
+[2023.12.21-14.20.26:479][345]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-14.20.26:480][345]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-14.20.26:480][345]LogAIModule: Creating AISystem for world Test_Map
+[2023.12.21-14.20.26:481][345]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2023.12.21-14.20.26:506][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.12.21-14.20.26:510][345]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.12.21-14.20.26:510][345]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.21-14.20.26:510][345]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.21-14.20.26:510][345]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.21-14.20.26:510][345]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.21-14.20.26:510][345]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.21-14.20.26:510][345]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.21-14.20.26:510][345]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.21-14.20.26:510][345]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.21-14.20.26:511][345]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.21-14.20.26:511][345]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.21-14.20.26:511][345]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.21-14.20.26:514][345]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.21-14.20.26:534][345]LogAudioMixer: Display: Using Audio Hardware Device Headphones (BTS-10)
+[2023.12.21-14.20.26:534][345]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.21-14.20.26:534][345]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.21-14.20.26:534][345]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.21-14.20.26:536][345]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.12.21-14.20.26:536][345]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.12.21-14.20.26:538][345]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.12.21-14.20.26:538][345]LogInit: FAudioDevice initialized with ID 23.
+[2023.12.21-14.20.26:538][345]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.12.21-14.20.26:538][345]LogAudio: Display: Audio Device (ID: 23) registered with world 'Test_Map'.
+[2023.12.21-14.20.26:538][345]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2023.12.21-14.20.26:544][345]LogLoad: Game class is 'BP_GameModeTP_C'
+[2023.12.21-14.20.26:544][345]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2023.12.21-15.20.26
+[2023.12.21-14.20.26:544][345]LogWorld: Bringing up level for play took: 0.000685
+[2023.12.21-14.20.26:546][345]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.12.21-14.20.26:594][345]PIE: Server logged in
+[2023.12.21-14.20.26:594][345]PIE: Play in editor total start time 0.12 seconds.
+[2023.12.21-14.20.48:215][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-14.20.48:215][918]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-14.20.48:215][918]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2023.12.21-14.20.48:215][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-14.20.48:219][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.21-14.20.48:226][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-14.20.48:250][918]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.21-14.20.48:250][918]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2023.12.21-14.20.48:250][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.12.21-14.20.48:252][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.12.21-14.20.48:255][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-14.20.48:258][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.12.21-14.20.48:290][919]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.12.21-14.21.17:566][ 51]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.21-14.21.17:572][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.21-14.21.17:572][ 51]PIE: New page: PIE session: Test_Map (21-Dec-2023, 4:21:17 pm)
+[2023.12.21-14.21.17:595][ 51]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-14.21.17:597][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002790s)
+[2023.12.21-14.21.17:598][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.002836s)
+[2023.12.21-14.21.17:598][ 51]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.21-14.21.17:598][ 51]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.21-14.21.17:598][ 51]LogAIModule: Creating AISystem for world Test_Map
+[2023.12.21-14.21.17:598][ 51]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2023.12.21-14.21.17:625][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.12.21-14.21.17:626][ 51]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.12.21-14.21.17:626][ 51]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.21-14.21.17:626][ 51]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.21-14.21.17:626][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.21-14.21.17:626][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.21-14.21.17:626][ 51]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.21-14.21.17:626][ 51]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.21-14.21.17:626][ 51]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.21-14.21.17:626][ 51]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.21-14.21.17:627][ 51]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.21-14.21.17:627][ 51]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.21-14.21.17:627][ 51]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.21-14.21.17:629][ 51]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.21-14.21.17:652][ 51]LogAudioMixer: Display: Using Audio Hardware Device Headphones (BTS-10)
+[2023.12.21-14.21.17:653][ 51]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.21-14.21.17:653][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.21-14.21.17:653][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.21-14.21.17:653][ 51]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.12.21-14.21.17:653][ 51]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.12.21-14.21.17:655][ 51]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.12.21-14.21.17:655][ 51]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.12.21-14.21.17:656][ 51]LogInit: FAudioDevice initialized with ID 24.
+[2023.12.21-14.21.17:656][ 51]LogAudio: Display: Audio Device (ID: 24) registered with world 'Test_Map'.
+[2023.12.21-14.21.17:656][ 51]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2023.12.21-14.21.17:659][ 51]LogLoad: Game class is 'BP_GameModeTP_C'
+[2023.12.21-14.21.17:660][ 51]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2023.12.21-15.21.17
+[2023.12.21-14.21.17:660][ 51]LogWorld: Bringing up level for play took: 0.000701
+[2023.12.21-14.21.17:662][ 51]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.12.21-14.21.17:664][ 51]PIE: Server logged in
+[2023.12.21-14.21.17:665][ 51]PIE: Play in editor total start time 0.093 seconds.
+[2023.12.21-14.21.43:085][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-14.21.43:085][ 62]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2023.12.21-14.21.43:085][ 62]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2023.12.21-14.21.43:085][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-14.21.43:089][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.21-14.21.43:096][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.21-14.21.43:121][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.21-14.21.43:121][ 62]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2023.12.21-14.21.43:121][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.12.21-14.21.43:123][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.12.21-14.21.43:130][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.12.21-14.21.43:160][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Content: 'E:/Epic Games/UE_5.2/Engine/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Bridge/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Bridge/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/TraceUtilities/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/TraceUtilities/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Animation/IKRig/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRig/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaPlate/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Interchange/Runtime/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Metasound/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.20:204][410]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.21-14.22.26:630][410]LogSlate: Window 'Submit Files' being destroyed
+[2023.12.21-14.22.27:266][410]LogSourceControl: commit successful: [main 22f1566] Aim Offset Added
+[2023.12.21-14.22.27:349][410]SourceControl: [main 22f1566] Aim Offset Added
+[2023.12.21-14.22.27:349][410]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2023.12.21-14.22.27:349][410]SourceControl:  create mode 100644 Content/ThirdPerson/Character/Animation/AO_TPCharacter.uasset
+[2023.12.21-14.22.27:368][410]SourceControl: Commited [main 22f1566] Aim Offset Added.
