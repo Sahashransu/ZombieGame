@@ -4529,3 +4529,207 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.28-12.06.36:800][551]SourceControl:  5 files changed, 0 insertions(+), 0 deletions(-)
 [2023.12.28-12.06.36:800][551]SourceControl:  create mode 100644 Content/ThirdPerson/CrossHair/M_Laser.uasset
 [2023.12.28-12.06.36:815][551]SourceControl: Commited [main 0efd84e] Laser Added.
+[2023.12.28-12.10.32:882][862]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.12.28-12.10.32:908][862]LogContentBrowser: Creating deferred item: NewFolder
+[2023.12.28-12.10.32:920][863]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.12.28-12.10.34:998][112]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2023.12.28-12.10.34:998][112]LogContentBrowser: End creating deferred item NewFolder
+[2023.12.28-12.10.38:993][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.28-12.10.39:024][416]LogSavePackage: Moving output files for package: /Game/ThirdPerson/CrossHair/Materials/M_Laser
+[2023.12.28-12.10.39:024][416]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/M_LaserCC8412EF440CA7B7FC84419750823F59.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/CrossHair/Materials/M_Laser.uasset'
+[2023.12.28-12.10.39:028][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/CrossHair/M_Laser" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/CrossHair/M_Laser.uasset" SILENT=true
+[2023.12.28-12.10.39:029][416]LogSavePackage: Moving output files for package: /Game/ThirdPerson/CrossHair/M_Laser
+[2023.12.28-12.10.39:029][416]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/M_Laser2ABD56414CD0776304CCBCBF3DC87DEF.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/CrossHair/M_Laser.uasset'
+[2023.12.28-12.10.39:222][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 39.7 sec)
+[2023.12.28-12.10.39:429][416]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.28-12.10.39:429][416]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/ThirdPerson/CrossHair/M_Laser.M_Laser
+[2023.12.28-12.10.39:429][416]LogContentValidation: Display: Validating /Script/Engine.Material /Game/ThirdPerson/CrossHair/Materials/M_Laser.M_Laser
+[2023.12.28-12.10.41:116][557]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.12.28-12.10.41:127][557]LogContentBrowser: Creating deferred item: NewFolder
+[2023.12.28-12.10.41:138][558]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.12.28-12.10.43:432][833]LogContentBrowser: Attempting asset rename: NewFolder -> Textures
+[2023.12.28-12.10.43:432][833]LogContentBrowser: End creating deferred item NewFolder
+[2023.12.28-12.11.03:282][827]LogInterchangeEngine: [Pending] Importing
+[2023.12.28-12.11.03:282][827]LogInterchangeEngine: Display: Interchange start importing source [E:/Unreal Proje...sshair/TexturesT_TypeB_horiz_wStroke.png]
+[2023.12.28-12.11.03:282][827]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.28-12.11.03:387][828]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.28-12.11.03:397][828]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.12.28-12.11.03:724][829]LogTexture: Display: Building textures: /Game/ThirdPerson/CrossHair/Textures/T_TypeB_horiz_wStroke.T_TypeB_horiz_wStroke (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.12.28-12.11.03:761][829]LogInterchangeEngine: [Success] Import Done
+[2023.12.28-12.11.03:761][829]LogInterchangeEngine: [Pending] Importing
+[2023.12.28-12.11.03:761][829]LogInterchangeEngine: Display: Interchange start importing source [E:/Unreal Proje...sshair/TexturesT_TypeB_vert_wStroke.png]
+[2023.12.28-12.11.03:796][830]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.12.28-12.11.03:798][830]LogInterchangeEngine: [Success] Import Done
+[2023.12.28-12.11.03:809][830]LogTexture: Display: Building textures: /Game/ThirdPerson/CrossHair/Textures/T_TypeB_vert_wStroke.T_TypeB_vert_wStroke (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.12.28-12.11.03:814][830]LogInterchangeEngine: [Pending] Importing
+[2023.12.28-12.11.04:095][830]LogInterchangeEngine: [Success] Import Done
+[2023.12.28-12.11.04:176][831]LogInterchangeEngine: [Success] Import Done
+[2023.12.28-12.11.09:255][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.12.28-12.11.10:000][895]LogSlate: Window 'Save Content' being destroyed
+[2023.12.28-12.11.10:146][895]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.28-12.11.10:203][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2023.12.28-12.11.10:228][895]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2023.12.28-12.11.10:229][895]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacterD7BA54E74931B2E0256011B7189E3BB2.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2023.12.28-12.11.10:257][895]LogSavePackage: Moving output files for package: /Game/ThirdPerson/CrossHair/Textures/T_TypeB_horiz_wStroke
+[2023.12.28-12.11.10:257][895]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/T_TypeB_horiz_wStrokeF4B7C5964EF1E2BDBB68E2897650A4DB.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/CrossHair/Textures/T_TypeB_horiz_wStroke.uasset'
+[2023.12.28-12.11.10:267][895]LogSavePackage: Moving output files for package: /Game/ThirdPerson/CrossHair/Textures/T_TypeB_vert_wStroke
+[2023.12.28-12.11.10:267][895]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/T_TypeB_vert_wStrokeB948EF614E6215142A29BDA783FC5276.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/CrossHair/Textures/T_TypeB_vert_wStroke.uasset'
+[2023.12.28-12.11.10:516][895]LogFileHelpers: InternalPromptForCheckoutAndSave took 371 ms (total: 40.0 sec)
+[2023.12.28-12.11.10:523][895]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.28-12.11.10:523][895]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2023.12.28-12.11.10:523][895]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/CrossHair/Textures/T_TypeB_vert_wStroke.T_TypeB_vert_wStroke
+[2023.12.28-12.11.10:523][895]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/CrossHair/Textures/T_TypeB_horiz_wStroke.T_TypeB_horiz_wStroke
+[2023.12.28-12.11.10:820][921]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/ThirdPerson/CrossHair/Textures/T_TypeB_horiz_wStroke.T_TypeB_horiz_wStroke
+[2023.12.28-12.11.10:978][921]LogViewport: Scene viewport resized to 1424x890, mode Windowed.
+[2023.12.28-12.11.30:125][126]LogContentBrowser: Attempting asset rename: T_TypeB_horiz_wStroke -> CH_Horizontal
+[2023.12.28-12.11.30:818][126]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.28-12.11.30:850][126]LogSavePackage: Moving output files for package: /Game/ThirdPerson/CrossHair/Textures/CH_Horizontal
+[2023.12.28-12.11.30:850][126]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/CH_Horizontal05703D3B4AA860221C4184A0F8AF81CF.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/CrossHair/Textures/CH_Horizontal.uasset'
+[2023.12.28-12.11.31:041][126]LogFileHelpers: InternalPromptForCheckoutAndSave took 223 ms (total: 40.2 sec)
+[2023.12.28-12.11.31:253][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.12.28-12.11.31:277][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.12.28-12.11.31:301][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.12.28-12.11.31:421][126]SourceControl: rm 'Content/ThirdPerson/CrossHair/Textures/T_TypeB_horiz_wStroke.uasset'
+[2023.12.28-12.11.31:432][126]AssetCheck: New page: Asset Save: CH_Horizontal
+[2023.12.28-12.11.31:432][126]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/CrossHair/Textures/CH_Horizontal.CH_Horizontal
+[2023.12.28-12.11.36:097][664]LogContentBrowser: Attempting asset rename: T_TypeB_vert_wStroke -> CH_Vertical
+[2023.12.28-12.11.36:737][664]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.28-12.11.36:771][664]LogSavePackage: Moving output files for package: /Game/ThirdPerson/CrossHair/Textures/CH_Vertical
+[2023.12.28-12.11.36:771][664]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/CH_Vertical4858C82C48981007DAA55DAE7F8DAD91.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/CrossHair/Textures/CH_Vertical.uasset'
+[2023.12.28-12.11.36:953][664]LogFileHelpers: InternalPromptForCheckoutAndSave took 215 ms (total: 40.5 sec)
+[2023.12.28-12.11.37:139][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.12.28-12.11.37:161][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.12.28-12.11.37:184][664]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.12.28-12.11.37:305][664]SourceControl: rm 'Content/ThirdPerson/CrossHair/Textures/T_TypeB_vert_wStroke.uasset'
+[2023.12.28-12.11.37:317][664]AssetCheck: New page: Asset Save: CH_Vertical
+[2023.12.28-12.11.37:317][664]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/CrossHair/Textures/CH_Vertical.CH_Vertical
+[2023.12.28-12.11.38:253][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.12.28-12.13.20:589][202]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.12.28-12.13.20:602][202]LogContentBrowser: Creating deferred item: NewFolder
+[2023.12.28-12.13.20:614][203]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.12.28-12.13.25:927][806]LogContentBrowser: Attempting asset rename: NewFolder -> WidgetBP
+[2023.12.28-12.13.25:927][806]LogContentBrowser: End creating deferred item NewFolder
+[2023.12.28-12.13.35:216][463]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2023.12.28-12.13.35:251][463]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.12.28-12.13.35:257][463]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.12.28-12.13.35:300][465]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.12.28-12.13.40:365][ 71]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_CrossHair
+[2023.12.28-12.13.40:491][ 71]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.12.28-12.13.42:324][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.12.28-12.13.43:200][279]LogSlate: Window 'Save Content' being destroyed
+[2023.12.28-12.13.43:291][279]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.28-12.13.43:322][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/WidgetBP/WBP_CrossHair" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/WidgetBP/WBP_CrossHair.uasset" SILENT=true
+[2023.12.28-12.13.43:326][279]LogSavePackage: Moving output files for package: /Game/ThirdPerson/WidgetBP/WBP_CrossHair
+[2023.12.28-12.13.43:326][279]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/WBP_CrossHairD1E6D04D403FC0612FD505991EE8B648.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/WidgetBP/WBP_CrossHair.uasset'
+[2023.12.28-12.13.43:522][279]LogFileHelpers: InternalPromptForCheckoutAndSave took 231 ms (total: 40.7 sec)
+[2023.12.28-12.13.43:530][279]AssetCheck: New page: Asset Save: WBP_CrossHair
+[2023.12.28-12.13.43:530][279]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/WidgetBP/WBP_CrossHair.WBP_CrossHair
+[2023.12.28-12.13.48:752][355]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPerson/WidgetBP/WBP_CrossHair.WBP_CrossHair
+[2023.12.28-12.13.48:753][355]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.28-12.13.48:753][355]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.28-12.13.48:763][355]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.28-12.13.48:763][355]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.28-12.13.48:774][355]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.12.28-12.13.49:528][355]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.12.28-12.14.32:932][544]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.12.28-12.14.32:932][544]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.12.28-12.15.04:987][390]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.12.28-12.16.21:969][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.12.28-12.16.21:971][581]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Test_Map' took 0.030
+[2023.12.28-12.16.21:972][581]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/WidgetBP/WBP_CrossHair] ([2] browsable assets)...
+[2023.12.28-12.16.21:975][581]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ThirdPerson/WidgetBP/WBP_CrossHair.WBP_CrossHair]
+[2023.12.28-12.16.21:975][581]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/WidgetBP/WBP_CrossHair]
+[2023.12.28-12.16.21:978][581]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/WidgetBP/WBP_CrossHair_Auto2
+[2023.12.28-12.16.21:979][581]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/WBP_CrossHair_Auto2033B7EF4442CBEF2CC9A4F901183C606.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/Autosaves/Game/ThirdPerson/WidgetBP/WBP_CrossHair_Auto2.uasset'
+[2023.12.28-12.16.21:979][581]LogFileHelpers: Auto-saving content packages took 0.008
+[2023.12.28-12.22.54:972][727]LogDerivedDataCache: C:/Users/OM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.105 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3398 files in 4696 folders with total size 942 MiB.
+[2023.12.28-12.37.06:978][491]BlueprintLog: New page: Compile WBP_CrossHair
+[2023.12.28-12.37.07:027][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.12.28-12.37.07:959][588]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.28-12.37.07:994][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/WidgetBP/WBP_CrossHair" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/WidgetBP/WBP_CrossHair.uasset" SILENT=true
+[2023.12.28-12.37.07:998][588]LogSavePackage: Moving output files for package: /Game/ThirdPerson/WidgetBP/WBP_CrossHair
+[2023.12.28-12.37.07:998][588]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/WBP_CrossHair8F5E7E35401F51D2DCC9899264A3BAA7.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/WidgetBP/WBP_CrossHair.uasset'
+[2023.12.28-12.37.08:007][588]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 40.7 sec)
+[2023.12.28-12.37.08:014][588]AssetCheck: New page: Asset Save: WBP_CrossHair
+[2023.12.28-12.37.08:014][588]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/WidgetBP/WBP_CrossHair.WBP_CrossHair
+[2023.12.28-12.37.09:343][709]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.12.28-12.37.09:343][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.28-12.37.09:365][709]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.12.28-12.37.09:365][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.28-12.37.09:422][709]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.12.28-12.37.09:422][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.28-12.37.09:816][743]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.12.28-12.37.09:816][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.28-12.37.09:880][743]LogViewport: Scene viewport resized to 968x573, mode Windowed.
+[2023.12.28-12.37.09:917][744]LogViewport: Scene viewport resized to 968x564, mode Windowed.
+[2023.12.28-12.37.09:947][745]LogViewport: Scene viewport resized to 968x557, mode Windowed.
+[2023.12.28-12.37.10:222][767]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.12.28-12.37.10:222][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.28-12.37.10:275][767]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.12.28-12.37.10:275][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.28-12.37.10:289][767]LogViewport: Scene viewport resized to 968x569, mode Windowed.
+[2023.12.28-12.37.10:330][768]LogViewport: Scene viewport resized to 968x559, mode Windowed.
+[2023.12.28-12.37.10:354][769]LogViewport: Scene viewport resized to 968x557, mode Windowed.
+[2023.12.28-12.37.10:683][795]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.12.28-12.37.10:683][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.28-12.37.10:705][795]LogViewport: Scene viewport resized to 968x574, mode Windowed.
+[2023.12.28-12.37.10:738][796]LogViewport: Scene viewport resized to 968x566, mode Windowed.
+[2023.12.28-12.37.10:759][797]LogViewport: Scene viewport resized to 968x561, mode Windowed.
+[2023.12.28-12.37.10:801][798]LogViewport: Scene viewport resized to 968x557, mode Windowed.
+[2023.12.28-12.37.11:089][823]LogViewport: Scene viewport resized to 968x586, mode Windowed.
+[2023.12.28-12.37.11:118][824]LogViewport: Scene viewport resized to 968x579, mode Windowed.
+[2023.12.28-12.37.11:147][825]LogViewport: Scene viewport resized to 968x572, mode Windowed.
+[2023.12.28-12.37.11:173][826]LogViewport: Scene viewport resized to 968x565, mode Windowed.
+[2023.12.28-12.37.11:203][827]LogViewport: Scene viewport resized to 968x557, mode Windowed.
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Content: 'E:/Epic Games/UE_5.2/Engine/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Bridge/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Bridge/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/TraceUtilities/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/TraceUtilities/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:960][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Metasound/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Interchange/Runtime/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRig/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Animation/IKRig/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaPlate/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.15:961][266]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2023.12.28-12.37.25:716][266]LogSlate: Window 'Submit Files' being destroyed
+[2023.12.28-12.37.26:447][266]LogSourceControl: commit successful: [main 3395754] CrossHair Texture Added.
+[2023.12.28-12.37.26:662][266]SourceControl: [main 3395754] CrossHair Texture Added.
+[2023.12.28-12.37.26:662][266]SourceControl:  6 files changed, 0 insertions(+), 0 deletions(-)
+[2023.12.28-12.37.26:662][266]SourceControl:  create mode 100644 Content/ThirdPerson/CrossHair/Materials/M_Laser.uasset
+[2023.12.28-12.37.26:662][266]SourceControl:  create mode 100644 Content/ThirdPerson/CrossHair/Textures/CH_Horizontal.uasset
+[2023.12.28-12.37.26:662][266]SourceControl:  create mode 100644 Content/ThirdPerson/CrossHair/Textures/CH_Vertical.uasset
+[2023.12.28-12.37.26:662][266]SourceControl:  create mode 100644 Content/ThirdPerson/WidgetBP/WBP_CrossHair.uasset
+[2023.12.28-12.37.26:680][266]SourceControl: Commited [main 3395754] CrossHair Texture Added..
