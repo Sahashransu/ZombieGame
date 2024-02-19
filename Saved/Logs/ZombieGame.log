@@ -2901,3 +2901,1360 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.19-13.14.16:411][ 14]SourceControl:  create mode 100644 Content/ThirdPerson/Materials/M_MuzzleFlash.uasset
 [2024.02.19-13.14.16:411][ 14]SourceControl:  create mode 100644 Content/ThirdPerson/Niagara/Bullet/NS_MuzzleFlash.uasset
 [2024.02.19-13.14.16:446][ 14]SourceControl: Commited [main 203fc17] Muzzle Flash Added.
+[2024.02.19-13.16.38:214][557]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.16.38:217][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.16.38:230][557]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.16.38:230][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.16.38:286][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.02.19-13.16.38:787][595]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.16.38:787][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.16.38:809][595]LogViewport: Scene viewport resized to 968x574, mode Windowed.
+[2024.02.19-13.16.38:849][596]LogViewport: Scene viewport resized to 968x565, mode Windowed.
+[2024.02.19-13.16.38:879][597]LogViewport: Scene viewport resized to 968x557, mode Windowed.
+[2024.02.19-13.16.38:908][598]LogViewport: Scene viewport resized to 968x551, mode Windowed.
+[2024.02.19-13.17.01:448][246]BlueprintLog: New page: Compile BP_Bulets
+[2024.02.19-13.17.01:489][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.02.19-13.17.02:318][325]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.17.02:370][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bulets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bulets.uasset" SILENT=true
+[2024.02.19-13.17.02:374][325]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bulets
+[2024.02.19-13.17.02:374][325]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_BuletsAF9AA7A74FEF316159C3429EB364CBB8.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bulets.uasset'
+[2024.02.19-13.17.02:382][325]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 23.3 sec)
+[2024.02.19-13.17.02:391][325]AssetCheck: New page: Asset Save: BP_Bulets
+[2024.02.19-13.17.02:391][325]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_Bulets.BP_Bulets
+[2024.02.19-13.18.55:641][956]BlueprintLog: New page: Compile BP_Bulets
+[2024.02.19-13.18.55:688][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.02.19-13.18.56:320][ 18]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.18.56:391][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bulets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bulets.uasset" SILENT=true
+[2024.02.19-13.18.56:396][ 18]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bulets
+[2024.02.19-13.18.56:397][ 18]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_BuletsE8C8C8EA4CBA205CCD65ACA953ACB92D.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bulets.uasset'
+[2024.02.19-13.18.56:405][ 18]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 23.3 sec)
+[2024.02.19-13.18.56:424][ 18]AssetCheck: New page: Asset Save: BP_Bulets
+[2024.02.19-13.18.56:424][ 18]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_Bulets.BP_Bulets
+[2024.02.19-13.19.41:936][281]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2024.02.19-13.19.41:936][281]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.19.41:936][281]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.20.38:470][989]LogContentBrowser: Attempting asset rename: BP_Bulets -> BP_Bullets
+[2024.02.19-13.20.39:122][989]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_Bulets.PackageMetaData'
+[2024.02.19-13.20.39:122][989]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_Bullets.SKEL_BP_Bullets_C' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_Bulets.PackageMetaData'
+[2024.02.19-13.20.39:122][989]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets_C' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_Bulets.PackageMetaData'
+[2024.02.19-13.20.39:122][989]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_Bulets.PackageMetaData'
+[2024.02.19-13.20.39:122][989]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_Bulets.PackageMetaData'
+[2024.02.19-13.20.39:122][989]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_Bulets.PackageMetaData'
+[2024.02.19-13.20.39:122][989]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets_C:ReceiveTick' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_Bulets.PackageMetaData'
+[2024.02.19-13.20.39:122][989]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_Bullets.SKEL_BP_Bullets_C:UserConstructionScript' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_Bulets.PackageMetaData'
+[2024.02.19-13.20.39:122][989]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_Bullets.SKEL_BP_Bullets_C:ReceiveTick' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_Bulets.PackageMetaData'
+[2024.02.19-13.20.39:128][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.20.39:156][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bullets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset" SILENT=true
+[2024.02.19-13.20.39:161][989]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bullets
+[2024.02.19-13.20.39:162][989]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_BulletsB60B41AE413511DC8381BAB11DF676DD.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset'
+[2024.02.19-13.20.39:169][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bulets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bulets.uasset" SILENT=true
+[2024.02.19-13.20.39:169][989]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bulets
+[2024.02.19-13.20.39:170][989]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_BuletsFE6DD2E84CB17876B8296DB8724EA4A6.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bulets.uasset'
+[2024.02.19-13.20.39:352][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 223 ms (total: 23.6 sec)
+[2024.02.19-13.20.39:561][989]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.19-13.20.39:561][989]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets
+[2024.02.19-13.20.39:561][989]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/ThirdPerson/Blueprints/BP_Bulets.BP_Bulets
+[2024.02.19-13.20.39:561][989]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/ThirdPerson/Blueprints/BP_Bulets.Default__BP_Bulets_C
+[2024.02.19-13.20.39:561][989]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/ThirdPerson/Blueprints/BP_Bulets.BP_Bulets_C
+[2024.02.19-13.20.39:562][989]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.20.41:193][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.02.19-13.20.42:060][160]LogSlate: Window 'Save Content' being destroyed
+[2024.02.19-13.20.42:150][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.20.42:211][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2024.02.19-13.20.42:262][160]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2024.02.19-13.20.42:262][160]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacterECAB3706412E0BA7DCF0B1929DFD3D3B.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2024.02.19-13.20.42:272][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 23.7 sec)
+[2024.02.19-13.20.42:282][160]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2024.02.19-13.20.42:282][160]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2024.02.19-13.20.56:532][446]LogViewport: Scene viewport resized to 973x634, mode Windowed.
+[2024.02.19-13.21.01:480][965]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/ParagonMurdock/Characters/Heroes/Murdock/Skins/CS_MatteBlack/Mesh/Murdock_SF.Murdock_SF
+[2024.02.19-13.21.01:481][965]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.21.01:481][965]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.21.01:500][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.02.19-13.21.01:695][965]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2024.02.19-13.21.01:778][965]LogViewport: Scene viewport resized to 932x858, mode Windowed.
+[2024.02.19-13.21.03:291][129]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/ParagonMurdock/Characters/Heroes/Murdock/Meshes/Murdock_Skeleton.Murdock_Skeleton
+[2024.02.19-13.21.03:291][129]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.21.03:291][129]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.21.03:300][129]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.02.19-13.21.03:473][129]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.21.03:473][129]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.21.03:590][129]LogViewport: Scene viewport resized to 1141x858, mode Windowed.
+[2024.02.19-13.24.24:979][650]BlueprintLog: New page: Compile BP_TPCharacter
+[2024.02.19-13.24.25:126][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.02.19-13.24.26:070][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.24.26:152][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Character/BP_TPCharacter" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset" SILENT=true
+[2024.02.19-13.24.26:220][743]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Character/BP_TPCharacter
+[2024.02.19-13.24.26:221][743]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_TPCharacter521612D34BF88E7B3F947E839AE4F9DF.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Character/BP_TPCharacter.uasset'
+[2024.02.19-13.24.26:230][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 23.8 sec)
+[2024.02.19-13.24.26:246][743]AssetCheck: New page: Asset Save: BP_TPCharacter
+[2024.02.19-13.24.26:247][743]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Character/BP_TPCharacter.BP_TPCharacter
+[2024.02.19-13.24.31:392][259]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.19-13.24.31:399][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.19-13.24.31:399][259]PIE: New page: PIE session: Test_Map (19-Feb-2024, 3:24:31 pm)
+[2024.02.19-13.24.31:399][259]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.24.31:402][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003605s)
+[2024.02.19-13.24.31:403][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.003650s)
+[2024.02.19-13.24.31:403][259]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.24.31:403][259]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.24.31:403][259]LogAIModule: Creating AISystem for world Test_Map
+[2024.02.19-13.24.31:403][259]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2024.02.19-13.24.31:432][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.19-13.24.31:436][259]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.02.19-13.24.31:437][259]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.19-13.24.31:437][259]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.19-13.24.31:437][259]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.19-13.24.31:437][259]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.19-13.24.31:437][259]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.19-13.24.31:437][259]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.19-13.24.31:437][259]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.19-13.24.31:437][259]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.19-13.24.31:437][259]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.19-13.24.31:437][259]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.19-13.24.31:437][259]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.19-13.24.31:439][259]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.19-13.24.31:463][259]LogAudioMixer: Display: Using Audio Hardware Device Headphones (BTS-10)
+[2024.02.19-13.24.31:464][259]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.19-13.24.31:464][259]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.19-13.24.31:464][259]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.19-13.24.31:465][259]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.02.19-13.24.31:465][259]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.02.19-13.24.31:466][259]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.02.19-13.24.31:466][259]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.02.19-13.24.31:466][259]LogInit: FAudioDevice initialized with ID 10.
+[2024.02.19-13.24.31:466][259]LogAudio: Display: Audio Device (ID: 10) registered with world 'Test_Map'.
+[2024.02.19-13.24.31:466][259]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.02.19-13.24.31:492][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.24.31:492][259]LogLoad: Game class is 'BP_GameModeTP_C'
+[2024.02.19-13.24.31:493][259]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2024.02.19-14.24.31
+[2024.02.19-13.24.31:495][259]LogWorld: Bringing up level for play took: 0.001662
+[2024.02.19-13.24.31:497][259]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2024.02.19-13.24.31:500][259]LogBlueprintUserMessages: [BP_Test_C_1] Particle
+[2024.02.19-13.24.31:503][259]PIE: Server logged in
+[2024.02.19-13.24.31:505][259]PIE: Play in editor total start time 0.107 seconds.
+[2024.02.19-13.24.31:544][259]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.02.19-13.24.51:225][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.24.51:225][918]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.24.51:225][918]LogSlate: Window 'ZombieGame Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.02.19-13.24.51:233][918]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.24.51:233][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.24.51:237][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.19-13.24.51:247][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.24.51:275][918]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.19-13.24.51:275][918]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.02.19-13.24.51:275][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.02.19-13.24.51:277][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.02.19-13.24.51:288][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.02.19-13.24.51:337][919]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2024.02.19-13.26.21:166][413]BlueprintLog: New page: Compile BP_Bullets
+[2024.02.19-13.26.21:223][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.02.19-13.26.22:129][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.26.22:194][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bullets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset" SILENT=true
+[2024.02.19-13.26.22:199][504]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bullets
+[2024.02.19-13.26.22:200][504]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_Bullets7A0922A8490E409C96C638B5B664AFAA.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset'
+[2024.02.19-13.26.22:208][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 23.9 sec)
+[2024.02.19-13.26.22:217][504]AssetCheck: New page: Asset Save: BP_Bullets
+[2024.02.19-13.26.22:217][504]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets
+[2024.02.19-13.26.23:694][650]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.19-13.26.23:701][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.19-13.26.23:701][650]PIE: New page: PIE session: Test_Map (19-Feb-2024, 3:26:23 pm)
+[2024.02.19-13.26.23:701][650]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.26.23:705][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003317s)
+[2024.02.19-13.26.23:705][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.003359s)
+[2024.02.19-13.26.23:705][650]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.26.23:705][650]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.26.23:705][650]LogAIModule: Creating AISystem for world Test_Map
+[2024.02.19-13.26.23:706][650]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2024.02.19-13.26.23:733][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.02.19-13.26.23:735][650]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.02.19-13.26.23:735][650]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.19-13.26.23:735][650]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.19-13.26.23:735][650]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.19-13.26.23:735][650]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.19-13.26.23:735][650]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.19-13.26.23:735][650]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.19-13.26.23:735][650]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.19-13.26.23:735][650]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.19-13.26.23:736][650]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.19-13.26.23:736][650]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.19-13.26.23:736][650]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.19-13.26.23:738][650]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.19-13.26.23:763][650]LogAudioMixer: Display: Using Audio Hardware Device Headphones (BTS-10)
+[2024.02.19-13.26.23:763][650]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.19-13.26.23:763][650]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.19-13.26.23:763][650]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.19-13.26.23:764][650]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.02.19-13.26.23:764][650]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.02.19-13.26.23:765][650]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.02.19-13.26.23:765][650]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.02.19-13.26.23:765][650]LogInit: FAudioDevice initialized with ID 11.
+[2024.02.19-13.26.23:765][650]LogAudio: Display: Audio Device (ID: 11) registered with world 'Test_Map'.
+[2024.02.19-13.26.23:765][650]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.02.19-13.26.23:793][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.26.23:793][650]LogLoad: Game class is 'BP_GameModeTP_C'
+[2024.02.19-13.26.23:794][650]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2024.02.19-14.26.23
+[2024.02.19-13.26.23:794][650]LogWorld: Bringing up level for play took: 0.001365
+[2024.02.19-13.26.23:797][650]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2024.02.19-13.26.23:800][650]LogBlueprintUserMessages: [BP_Test_C_1] Particle
+[2024.02.19-13.26.23:803][650]PIE: Server logged in
+[2024.02.19-13.26.23:805][650]PIE: Play in editor total start time 0.104 seconds.
+[2024.02.19-13.26.23:844][650]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.02.19-13.26.32:814][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.26.32:814][398]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.26.32:815][398]LogSlate: Window 'ZombieGame Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.02.19-13.26.32:822][398]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.26.32:822][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.26.32:826][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.19-13.26.32:835][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.26.32:863][398]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.19-13.26.32:863][398]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.02.19-13.26.32:863][398]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.02.19-13.26.32:865][398]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.02.19-13.26.32:874][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.02.19-13.26.32:928][399]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2024.02.19-13.26.36:151][553]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.26.36:189][553]LogSavePackage: Moving output files for package: /Game/ParagonMurdock/Characters/Heroes/Murdock/Meshes/Murdock_Skeleton
+[2024.02.19-13.26.36:190][553]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/Murdock_Skeleton4E5EC398414F5EAEB30E7F846796776F.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ParagonMurdock/Characters/Heroes/Murdock/Meshes/Murdock_Skeleton.uasset'
+[2024.02.19-13.26.36:202][553]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 24.0 sec)
+[2024.02.19-13.26.36:213][553]AssetCheck: New page: Asset Save: Murdock_Skeleton
+[2024.02.19-13.26.36:213][553]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/ParagonMurdock/Characters/Heroes/Murdock/Meshes/Murdock_Skeleton.Murdock_Skeleton
+[2024.02.19-13.26.43:038][261]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_MuzzleFlash.NS_MuzzleFlash
+[2024.02.19-13.26.43:203][261]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.26.43:203][261]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.26.43:234][261]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.26.43:234][261]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.26.43:320][261]LogViewport: Scene viewport resized to 508x476, mode Windowed.
+[2024.02.19-13.26.43:597][271]45684_NS_MuzzleFlash_MessageLog: System successfully compiled.
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Total job queries 839, among them cache hits 172 (20.50%)
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Tracking 666 distinct input hashes that result in 369 distinct outputs (55.41%)
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: RAM used: 16.57 MiB of 819.20 MiB budget. Usage: 2.02%
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Shaders Compiled: 463
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Jobs assigned 464, completed 463 (99.78%)
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Average time worker was idle: 47.22 s
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Time job spent in pending queue: average 0.97 s, longest 12.82 s
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Job execution time: average 1.26 s, max 10.97 s
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Job life time (pending + execution): average 2.23 s, max 13.56
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 80.26 s
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Jobs were issued in 391 batches (only local compilation was used), average 1.19 jobs/batch
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Average processing rate: 5.77 jobs/sec
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Total thread time: 226.408 s
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Total thread preprocess time: 10.756 s
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Percentage time preprocessing: 4.75%
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Effective parallelization: 2.82 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.71 sec, max 0.82 sec, min 0.60 sec)
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.69 sec, max 0.84 sec, min 0.57 sec)
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   11 times, average 0.68 sec, max 0.80 sec, min 0.58 sec)
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display:    TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy (compiled   11 times, average 0.68 sec, max 0.83 sec, min 0.55 sec)
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   11 times, average 0.68 sec, max 0.92 sec, min 0.55 sec)
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.19-13.26.45:963][499]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.02% of total time (compiled   43 times, average 0.63 sec, max 1.45 sec, min 0.46 sec)
+[2024.02.19-13.26.45:964][499]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.64% of total time (compiled   34 times, average 0.64 sec, max 1.65 sec, min 0.51 sec)
+[2024.02.19-13.26.45:964][499]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.85% of total time (compiled   37 times, average 0.48 sec, max 0.70 sec, min 0.37 sec)
+[2024.02.19-13.26.45:964][499]LogShaderCompilers: Display:                                               FNiagaraShader - 6.71% of total time (compiled  107 times, average 0.14 sec, max 0.43 sec, min 0.04 sec)
+[2024.02.19-13.26.45:964][499]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.93% of total time (compiled   20 times, average 0.67 sec, max 0.84 sec, min 0.48 sec)
+[2024.02.19-13.26.45:964][499]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.26.46:121][511]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_MuzzleFlash.NS_MuzzleFlash took 0.552927 sec (time since issued), 0.870028 sec (combined shader worker time).
+[2024.02.19-13.26.46:262][520]45684_NS_MuzzleFlash_MessageLog: System successfully compiled.
+[2024.02.19-13.26.47:085][559]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_MuzzleFlash.NS_MuzzleFlash took 0.455618 sec (time since issued), 0.678404 sec (combined shader worker time).
+[2024.02.19-13.26.47:184][559]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.26.47:288][559]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Niagara/Bullet/NS_MuzzleFlash
+[2024.02.19-13.26.47:288][559]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/NS_MuzzleFlashD2CB877C4CC71E9D9E5A01BF3D7DD19B.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_MuzzleFlash.uasset'
+[2024.02.19-13.26.47:298][559]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 24.1 sec)
+[2024.02.19-13.26.47:344][559]AssetCheck: New page: Asset Save: NS_MuzzleFlash
+[2024.02.19-13.26.47:344][559]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_MuzzleFlash.NS_MuzzleFlash
+[2024.02.19-13.26.49:334][752]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.19-13.26.49:341][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.19-13.26.49:341][752]PIE: New page: PIE session: Test_Map (19-Feb-2024, 3:26:49 pm)
+[2024.02.19-13.26.49:341][752]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.26.49:344][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003053s)
+[2024.02.19-13.26.49:344][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.003092s)
+[2024.02.19-13.26.49:344][752]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.26.49:344][752]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.26.49:344][752]LogAIModule: Creating AISystem for world Test_Map
+[2024.02.19-13.26.49:344][752]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2024.02.19-13.26.49:373][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.02.19-13.26.49:375][752]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.02.19-13.26.49:375][752]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.19-13.26.49:375][752]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.19-13.26.49:375][752]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.19-13.26.49:375][752]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.19-13.26.49:375][752]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.19-13.26.49:375][752]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.19-13.26.49:375][752]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.19-13.26.49:375][752]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.19-13.26.49:376][752]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.19-13.26.49:376][752]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.19-13.26.49:376][752]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.19-13.26.49:378][752]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.19-13.26.49:401][752]LogAudioMixer: Display: Using Audio Hardware Device Headphones (BTS-10)
+[2024.02.19-13.26.49:401][752]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.19-13.26.49:401][752]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.19-13.26.49:401][752]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.19-13.26.49:403][752]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.02.19-13.26.49:403][752]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.02.19-13.26.49:405][752]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.02.19-13.26.49:405][752]LogInit: FAudioDevice initialized with ID 12.
+[2024.02.19-13.26.49:405][752]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.02.19-13.26.49:405][752]LogAudio: Display: Audio Device (ID: 12) registered with world 'Test_Map'.
+[2024.02.19-13.26.49:405][752]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.02.19-13.26.49:430][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.26.49:430][752]LogLoad: Game class is 'BP_GameModeTP_C'
+[2024.02.19-13.26.49:431][752]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2024.02.19-14.26.49
+[2024.02.19-13.26.49:432][752]LogWorld: Bringing up level for play took: 0.001355
+[2024.02.19-13.26.49:434][752]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.02.19-13.26.49:437][752]LogBlueprintUserMessages: [BP_Test_C_1] Particle
+[2024.02.19-13.26.49:441][752]PIE: Server logged in
+[2024.02.19-13.26.49:442][752]PIE: Play in editor total start time 0.102 seconds.
+[2024.02.19-13.26.49:478][752]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.02.19-13.27.26:403][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.27.26:404][945]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.27.26:405][945]LogSlate: Window 'ZombieGame Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.02.19-13.27.26:412][945]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.27.26:413][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.27.26:415][945]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.19-13.27.26:424][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.27.26:452][945]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.19-13.27.26:452][945]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.02.19-13.27.26:454][945]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.02.19-13.27.26:455][945]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.02.19-13.27.26:465][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.02.19-13.27.26:515][946]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.02.19-13.28.07:064][116]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.28.07:065][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.28.07:126][116]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.28.07:126][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.28.08:513][228]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.28.08:513][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.28.08:583][228]LogViewport: Scene viewport resized to 968x564, mode Windowed.
+[2024.02.19-13.28.08:621][229]LogViewport: Scene viewport resized to 968x554, mode Windowed.
+[2024.02.19-13.28.08:656][230]LogViewport: Scene viewport resized to 968x551, mode Windowed.
+[2024.02.19-13.28.17:210][693]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2024.02.19-13.28.17:223][693]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2024.02.19-13.28.17:231][693]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2024.02.19-13.28.17:244][694]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2024.02.19-13.28.22:130][223]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> NS_BulletSmoke
+[2024.02.19-13.28.22:287][223]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2024.02.19-13.28.22:740][265]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.453429 sec (time since issued), 0.871782 sec (combined shader worker time).
+[2024.02.19-13.28.24:062][397]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke
+[2024.02.19-13.28.24:075][397]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.28.24:075][397]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.28.24:103][397]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.28.24:103][397]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.28.24:179][397]LogViewport: Scene viewport resized to 508x483, mode Windowed.
+[2024.02.19-13.28.24:234][398]LogViewport: Scene viewport resized to 508x476, mode Windowed.
+[2024.02.19-13.28.24:571][426]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.488796 sec (time since issued), 0.799015 sec (combined shader worker time).
+[2024.02.19-13.28.24:631][431]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.28.28:697][867]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.501181 sec (time since issued), 1.828530 sec (combined shader worker time).
+[2024.02.19-13.28.28:816][875]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.28.41:569][534]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.477319 sec (time since issued), 0.897444 sec (combined shader worker time).
+[2024.02.19-13.28.41:629][535]LogNiagara: Warning: For some reason we are reporting that /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke:SystemSpawnScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2024.02.19-13.28.41:629][535]LogNiagara: Warning: For some reason we are reporting that /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke:SystemUpdateScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2024.02.19-13.28.41:716][542]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.28.50:422][147]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Content/EngineMaterials: 'E:/Epic Games/UE_5.2/Engine/Content/EngineMaterials' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-13.28.50:422][147]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content/DefaultAssets: 'E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content/DefaultAssets' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-13.28.50:422][147]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset: 'E:/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-13.28.50:422][147]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Content/EditorResources/FieldNodes/_Resources/DefaultTextMaterialOpaque.uasset: 'E:/Epic Games/UE_5.2/Engine/Content/EditorResources/FieldNodes/_Resources/DefaultTextMaterialOpaque.uasset' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-13.29.10:295][479]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.29.10:643][511]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.423765 sec (time since issued), 0.781608 sec (combined shader worker time).
+[2024.02.19-13.29.12:301][675]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.29.16:767][143]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.29.17:185][181]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.492383 sec (time since issued), 0.913202 sec (combined shader worker time).
+[2024.02.19-13.29.18:719][324]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.456629 sec (time since issued), 0.842142 sec (combined shader worker time).
+[2024.02.19-13.29.18:776][326]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.29.19:246][366]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.470001 sec (time since issued), 0.872250 sec (combined shader worker time).
+[2024.02.19-13.29.20:935][441]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.29.56:777][ 95]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.29.57:208][125]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.29.57:208][125]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.19-13.29.57:208][125]LogShaderCompilers: Display: Total job queries 863, among them cache hits 172 (19.93%)
+[2024.02.19-13.29.57:208][125]LogShaderCompilers: Display: Tracking 691 distinct input hashes that result in 380 distinct outputs (54.99%)
+[2024.02.19-13.29.57:208][125]LogShaderCompilers: Display: RAM used: 16.80 MiB of 819.20 MiB budget. Usage: 2.05%
+[2024.02.19-13.29.57:208][125]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Shaders Compiled: 488
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Jobs assigned 488, completed 488 (100.00%)
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Average time worker was idle: 52.58 s
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Time job spent in pending queue: average 0.93 s, longest 12.82 s
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Job execution time: average 1.21 s, max 10.97 s
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Job life time (pending + execution): average 2.14 s, max 13.56
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 84.22 s
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Jobs were issued in 415 batches (only local compilation was used), average 1.18 jobs/batch
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Average processing rate: 5.79 jobs/sec
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Total thread time: 228.997 s
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Total thread preprocess time: 10.756 s
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Percentage time preprocessing: 4.70%
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Effective parallelization: 2.72 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.71 sec, max 0.82 sec, min 0.60 sec)
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.69 sec, max 0.84 sec, min 0.57 sec)
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   11 times, average 0.68 sec, max 0.80 sec, min 0.58 sec)
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display:    TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy (compiled   11 times, average 0.68 sec, max 0.83 sec, min 0.55 sec)
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   11 times, average 0.68 sec, max 0.92 sec, min 0.55 sec)
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.88% of total time (compiled   43 times, average 0.63 sec, max 1.45 sec, min 0.46 sec)
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.53% of total time (compiled   34 times, average 0.64 sec, max 1.65 sec, min 0.51 sec)
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display:                                               FNiagaraShader - 7.77% of total time (compiled  132 times, average 0.13 sec, max 0.43 sec, min 0.04 sec)
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.76% of total time (compiled   37 times, average 0.48 sec, max 0.70 sec, min 0.37 sec)
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.86% of total time (compiled   20 times, average 0.67 sec, max 0.84 sec, min 0.48 sec)
+[2024.02.19-13.29.57:209][125]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.29.57:251][127]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.590875 sec (time since issued), 2.149841 sec (combined shader worker time).
+[2024.02.19-13.29.58:781][284]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.30.00:782][482]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.30.00:952][499]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 1.363964 sec (time since issued), 5.255920 sec (combined shader worker time).
+[2024.02.19-13.30.02:782][701]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.30.15:945][879]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.30.16:472][927]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.629531 sec (time since issued), 2.168766 sec (combined shader worker time).
+[2024.02.19-13.30.17:945][ 99]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.30.30:460][ 30]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.30.30:861][ 67]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.542871 sec (time since issued), 0.863798 sec (combined shader worker time).
+[2024.02.19-13.30.32:516][177]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.30.34:528][225]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.30.35:462][327]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 1.563220 sec (time since issued), 1.898221 sec (combined shader worker time).
+[2024.02.19-13.30.36:126][375]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.618786 sec (time since issued), 1.011390 sec (combined shader worker time).
+[2024.02.19-13.30.36:539][417]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.30.51:287][806]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.30.51:773][844]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.639215 sec (time since issued), 1.048965 sec (combined shader worker time).
+[2024.02.19-13.30.53:291][999]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.31.00:290][715]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.31.00:842][757]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.733647 sec (time since issued), 1.211922 sec (combined shader worker time).
+[2024.02.19-13.31.02:290][893]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.31.13:157][745]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.31.13:688][799]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.680890 sec (time since issued), 1.007646 sec (combined shader worker time).
+[2024.02.19-13.31.15:166][967]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.31.18:082][ 25]110888_NS_BulletSmoke_MessageLog: System compile status unknown.
+[2024.02.19-13.31.18:647][ 78]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.714505 sec (time since issued), 1.103418 sec (combined shader worker time).
+[2024.02.19-13.31.20:088][227]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.31.20:183][235]LogNiagaraEditor: Removed Var 'Constants.Bullet_Smoke.ScaleColor.Scale Alpha' from Script NiagaraScript /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke:Bullet_Smoke_0.SpawnScript
+[2024.02.19-13.31.20:184][235]LogNiagaraEditor: Removed Var 'Constants.Bullet_Smoke.ScaleColor.Scale Alpha' from Script NiagaraScript /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke:Bullet_Smoke_0.UpdateScript
+[2024.02.19-13.31.20:253][235]LogUMG: Warning: The requested size for SRetainerWidget is 0. W:431 H:0
+[2024.02.19-13.31.20:952][278]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.696293 sec (time since issued), 1.140605 sec (combined shader worker time).
+[2024.02.19-13.31.22:091][398]110888_NS_BulletSmoke_MessageLog: System successfully compiled.
+[2024.02.19-13.32.02:652][802]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke took 0.753678 sec (time since issued), 2.656936 sec (combined shader worker time).
+[2024.02.19-13.32.02:758][802]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.32.02:828][802]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke
+[2024.02.19-13.32.02:828][802]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/NS_BulletSmoke3637787D478A5A4BB6A81C946B252571.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.uasset'
+[2024.02.19-13.32.03:041][802]LogFileHelpers: InternalPromptForCheckoutAndSave took 284 ms (total: 24.4 sec)
+[2024.02.19-13.32.03:071][802]AssetCheck: New page: Asset Save: NS_BulletSmoke
+[2024.02.19-13.32.03:071][802]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.NS_BulletSmoke
+[2024.02.19-13.32.25:699][227]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content/DefaultAssets/Templates/Systems: 'E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content/DefaultAssets/Templates/Systems' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-13.32.39:575][787]BlueprintLog: New page: Compile BP_Bullets
+[2024.02.19-13.32.39:672][787]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.02.19-13.32.40:376][846]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.32.40:429][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bullets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset" SILENT=true
+[2024.02.19-13.32.40:434][846]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bullets
+[2024.02.19-13.32.40:434][846]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_BulletsE876394D46D598D1B3B82D83EB4A1DD2.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset'
+[2024.02.19-13.32.40:443][846]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 24.4 sec)
+[2024.02.19-13.32.40:451][846]AssetCheck: New page: Asset Save: BP_Bullets
+[2024.02.19-13.32.40:451][846]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets
+[2024.02.19-13.32.52:184][922]BlueprintLog: New page: Compile BP_Bullets
+[2024.02.19-13.32.52:236][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.02.19-13.32.52:919][976]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.32.52:971][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bullets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset" SILENT=true
+[2024.02.19-13.32.52:977][976]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bullets
+[2024.02.19-13.32.52:977][976]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_Bullets94B9A5FC4DFD7E62D5024586618A8BBF.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset'
+[2024.02.19-13.32.52:985][976]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 24.5 sec)
+[2024.02.19-13.32.52:994][976]AssetCheck: New page: Asset Save: BP_Bullets
+[2024.02.19-13.32.52:994][976]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets
+[2024.02.19-13.32.53:840][ 52]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.19-13.32.53:847][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.19-13.32.53:847][ 52]PIE: New page: PIE session: Test_Map (19-Feb-2024, 3:32:53 pm)
+[2024.02.19-13.32.53:847][ 52]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.32.53:851][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003442s)
+[2024.02.19-13.32.53:851][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.003489s)
+[2024.02.19-13.32.53:851][ 52]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.32.53:851][ 52]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.32.53:852][ 52]LogAIModule: Creating AISystem for world Test_Map
+[2024.02.19-13.32.53:853][ 52]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2024.02.19-13.32.53:880][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.02.19-13.32.53:884][ 52]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.02.19-13.32.53:884][ 52]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.19-13.32.53:884][ 52]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.19-13.32.53:884][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.19-13.32.53:884][ 52]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.19-13.32.53:884][ 52]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.19-13.32.53:884][ 52]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.19-13.32.53:884][ 52]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.19-13.32.53:884][ 52]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.19-13.32.53:884][ 52]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.19-13.32.53:884][ 52]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.19-13.32.53:884][ 52]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.19-13.32.53:886][ 52]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.19-13.32.53:912][ 52]LogAudioMixer: Display: Using Audio Hardware Device Headphones (BTS-10)
+[2024.02.19-13.32.53:913][ 52]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.19-13.32.53:913][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.19-13.32.53:913][ 52]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.19-13.32.53:914][ 52]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.02.19-13.32.53:914][ 52]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.02.19-13.32.53:914][ 52]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.02.19-13.32.53:914][ 52]LogInit: FAudioDevice initialized with ID 13.
+[2024.02.19-13.32.53:915][ 52]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.02.19-13.32.53:915][ 52]LogAudio: Display: Audio Device (ID: 13) registered with world 'Test_Map'.
+[2024.02.19-13.32.53:915][ 52]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.19-13.32.53:943][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.32.53:943][ 52]LogLoad: Game class is 'BP_GameModeTP_C'
+[2024.02.19-13.32.53:944][ 52]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2024.02.19-14.32.53
+[2024.02.19-13.32.53:945][ 52]LogWorld: Bringing up level for play took: 0.001463
+[2024.02.19-13.32.53:947][ 52]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2024.02.19-13.32.53:950][ 52]LogBlueprintUserMessages: [BP_Test_C_1] Particle
+[2024.02.19-13.32.53:954][ 52]PIE: Server logged in
+[2024.02.19-13.32.53:956][ 52]PIE: Play in editor total start time 0.108 seconds.
+[2024.02.19-13.32.53:991][ 52]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.02.19-13.33.12:973][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.33.12:973][618]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.33.12:974][618]LogSlate: Window 'ZombieGame Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.02.19-13.33.12:982][618]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.33.12:982][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.33.12:985][618]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.19-13.33.12:986][618]LogNiagaraEditor: onPieEnd
+[2024.02.19-13.33.12:995][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.33.13:022][618]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.19-13.33.13:023][618]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.19-13.33.13:023][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.19-13.33.13:025][618]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.19-13.33.13:036][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.02.19-13.33.13:085][619]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2024.02.19-13.36.30:013][162]LogDerivedDataCache: C:/Users/OM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:23.176 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 11881 files in 13681 folders with total size 1304 MiB.
+[2024.02.19-13.45.10:383][722]BlueprintLog: New page: Compile BP_Bullets
+[2024.02.19-13.45.10:444][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.02.19-13.45.10:942][762]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.45.10:993][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bullets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset" SILENT=true
+[2024.02.19-13.45.10:999][762]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bullets
+[2024.02.19-13.45.10:999][762]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_Bullets2AED87334AF81C9E5308D79BC5CD1CC3.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset'
+[2024.02.19-13.45.11:008][762]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 24.6 sec)
+[2024.02.19-13.45.11:017][762]AssetCheck: New page: Asset Save: BP_Bullets
+[2024.02.19-13.45.11:017][762]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets
+[2024.02.19-13.45.12:835][952]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.45.12:836][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.45.12:882][952]LogViewport: Scene viewport resized to 968x571, mode Windowed.
+[2024.02.19-13.45.12:922][953]LogViewport: Scene viewport resized to 968x561, mode Windowed.
+[2024.02.19-13.45.12:952][954]LogViewport: Scene viewport resized to 968x554, mode Windowed.
+[2024.02.19-13.45.12:979][955]LogViewport: Scene viewport resized to 968x551, mode Windowed.
+[2024.02.19-13.45.13:342][982]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.02.19-13.45.13:342][982]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.45.13:342][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.45.13:385][982]LogViewport: Scene viewport resized to 968x564, mode Windowed.
+[2024.02.19-13.45.13:424][983]LogViewport: Scene viewport resized to 968x555, mode Windowed.
+[2024.02.19-13.45.13:453][984]LogViewport: Scene viewport resized to 968x551, mode Windowed.
+[2024.02.19-13.45.13:810][ 15]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.45.13:811][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.45.13:825][ 15]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.45.13:825][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.45.13:879][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.19-13.45.13:902][ 15]LogViewport: Scene viewport resized to 968x555, mode Windowed.
+[2024.02.19-13.45.13:932][ 16]LogViewport: Scene viewport resized to 968x551, mode Windowed.
+[2024.02.19-13.45.14:262][ 38]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.45.14:262][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.45.14:276][ 38]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.45.14:276][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.45.14:322][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.02.19-13.45.14:339][ 38]LogViewport: Scene viewport resized to 968x563, mode Windowed.
+[2024.02.19-13.45.14:365][ 39]LogViewport: Scene viewport resized to 968x556, mode Windowed.
+[2024.02.19-13.45.14:413][ 40]LogViewport: Scene viewport resized to 968x551, mode Windowed.
+[2024.02.19-13.45.18:654][345]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2024.02.19-13.45.18:667][345]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2024.02.19-13.45.18:675][345]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2024.02.19-13.45.18:687][346]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2024.02.19-13.45.22:232][744]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> NS_Impact
+[2024.02.19-13.45.22:318][744]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2024.02.19-13.45.22:679][778]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.45.22:679][778]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.19-13.45.22:679][778]LogShaderCompilers: Display: Total job queries 893, among them cache hits 172 (19.26%)
+[2024.02.19-13.45.22:679][778]LogShaderCompilers: Display: Tracking 721 distinct input hashes that result in 398 distinct outputs (55.20%)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: RAM used: 17.25 MiB of 819.20 MiB budget. Usage: 2.11%
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Shaders Compiled: 518
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Jobs assigned 518, completed 518 (100.00%)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Average time worker was idle: 53.75 s
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Time job spent in pending queue: average 0.88 s, longest 12.82 s
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Job execution time: average 1.16 s, max 10.97 s
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Job life time (pending + execution): average 2.04 s, max 13.56
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 90.06 s
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Jobs were issued in 445 batches (only local compilation was used), average 1.16 jobs/batch
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Average processing rate: 5.75 jobs/sec
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Total thread time: 233.588 s
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Total thread preprocess time: 10.756 s
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Percentage time preprocessing: 4.60%
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Effective parallelization: 2.59 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.71 sec, max 0.82 sec, min 0.60 sec)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.69 sec, max 0.84 sec, min 0.57 sec)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   11 times, average 0.68 sec, max 0.80 sec, min 0.58 sec)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display:    TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy (compiled   11 times, average 0.68 sec, max 0.83 sec, min 0.55 sec)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   11 times, average 0.68 sec, max 0.92 sec, min 0.55 sec)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.65% of total time (compiled   43 times, average 0.63 sec, max 1.45 sec, min 0.46 sec)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display:                                               FNiagaraShader - 9.58% of total time (compiled  162 times, average 0.14 sec, max 0.43 sec, min 0.04 sec)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.35% of total time (compiled   34 times, average 0.64 sec, max 1.65 sec, min 0.51 sec)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.61% of total time (compiled   37 times, average 0.48 sec, max 0.70 sec, min 0.37 sec)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.75% of total time (compiled   20 times, average 0.67 sec, max 0.84 sec, min 0.48 sec)
+[2024.02.19-13.45.22:680][778]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.45.22:718][782]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.403122 sec (time since issued), 0.772452 sec (combined shader worker time).
+[2024.02.19-13.45.23:773][894]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact
+[2024.02.19-13.45.23:786][894]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.45.23:786][894]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.45.23:850][894]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.45.23:850][894]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.45.23:942][894]LogViewport: Scene viewport resized to 508x476, mode Windowed.
+[2024.02.19-13.45.24:362][912]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.568721 sec (time since issued), 0.849956 sec (combined shader worker time).
+[2024.02.19-13.45.24:443][917]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.45.32:474][437]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.610934 sec (time since issued), 2.243975 sec (combined shader worker time).
+[2024.02.19-13.45.32:637][445]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.45.36:558][704]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.45.37:861][788]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 1.393293 sec (time since issued), 3.366295 sec (combined shader worker time).
+[2024.02.19-13.45.38:530][816]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.606631 sec (time since issued), 2.003686 sec (combined shader worker time).
+[2024.02.19-13.45.38:572][818]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.45.40:657][850]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.45.45:954][ 45]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.45.46:419][ 67]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.566013 sec (time since issued), 1.857030 sec (combined shader worker time).
+[2024.02.19-13.45.47:963][163]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.45.55:314][616]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.45.55:823][641]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.579292 sec (time since issued), 0.981479 sec (combined shader worker time).
+[2024.02.19-13.45.57:320][727]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.46.03:768][115]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.46.04:136][133]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.434506 sec (time since issued), 0.797792 sec (combined shader worker time).
+[2024.02.19-13.46.05:780][226]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.46.11:581][581]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.46.12:005][602]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.496019 sec (time since issued), 0.925654 sec (combined shader worker time).
+[2024.02.19-13.46.13:590][691]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.46.23:415][261]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.46.23:762][278]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.417990 sec (time since issued), 0.764116 sec (combined shader worker time).
+[2024.02.19-13.46.25:422][373]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.46.30:924][705]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.46.31:300][723]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.495153 sec (time since issued), 0.872221 sec (combined shader worker time).
+[2024.02.19-13.46.32:486][780]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.584149 sec (time since issued), 0.951924 sec (combined shader worker time).
+[2024.02.19-13.46.32:933][807]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.46.34:132][874]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.560795 sec (time since issued), 1.000022 sec (combined shader worker time).
+[2024.02.19-13.46.34:939][920]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.46.40:463][274]LogNiagaraEditor: Removed Var 'Constants.Empty.AddVelocity.Velocity Speed' from Script NiagaraScript /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact:Empty.SpawnScript
+[2024.02.19-13.46.40:675][276]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.46.41:099][296]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.566231 sec (time since issued), 0.905625 sec (combined shader worker time).
+[2024.02.19-13.46.42:688][388]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.46.57:805][275]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.46.58:284][299]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.614942 sec (time since issued), 1.045927 sec (combined shader worker time).
+[2024.02.19-13.46.59:006][331]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.674893 sec (time since issued), 1.026698 sec (combined shader worker time).
+[2024.02.19-13.46.59:818][379]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.47.06:130][748]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.47.06:746][782]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.744773 sec (time since issued), 1.161197 sec (combined shader worker time).
+[2024.02.19-13.47.08:143][865]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.47.22:624][550]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.47.23:149][572]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.740027 sec (time since issued), 1.183742 sec (combined shader worker time).
+[2024.02.19-13.47.24:955][601]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.47.42:162][183]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.47.42:767][210]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.836235 sec (time since issued), 1.248572 sec (combined shader worker time).
+[2024.02.19-13.47.44:165][299]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.47.51:525][531]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.47.52:051][561]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.760440 sec (time since issued), 1.127139 sec (combined shader worker time).
+[2024.02.19-13.47.53:536][656]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.48.05:339][106]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.48.06:000][141]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.894433 sec (time since issued), 1.281504 sec (combined shader worker time).
+[2024.02.19-13.48.07:351][225]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.48.11:965][521]LogNiagaraEditor: Removed Var 'Constants.Empty.ScaleColor.Scale Alpha' from Script NiagaraScript /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact:Empty.SpawnScript
+[2024.02.19-13.48.11:967][521]LogNiagaraEditor: Removed Var 'Constants.Empty.ScaleColor.Scale Alpha' from Script NiagaraScript /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact:Empty.UpdateScript
+[2024.02.19-13.48.12:053][521]LogUMG: Warning: The requested size for SRetainerWidget is 0. W:431 H:0
+[2024.02.19-13.48.12:304][523]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.48.12:849][549]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.791608 sec (time since issued), 1.128363 sec (combined shader worker time).
+[2024.02.19-13.48.14:312][635]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.48.18:680][878]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.48.20:492][955]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 2.210310 sec (time since issued), 3.311089 sec (combined shader worker time).
+[2024.02.19-13.48.20:694][962]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.48.29:486][470]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Total job queries 947, among them cache hits 172 (18.16%)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Tracking 774 distinct input hashes that result in 429 distinct outputs (55.43%)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: RAM used: 18.20 MiB of 819.20 MiB budget. Usage: 2.22%
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Shaders Compiled: 571
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Jobs assigned 572, completed 571 (99.83%)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Average time worker was idle: 51.91 s
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Time job spent in pending queue: average 0.80 s, longest 12.82 s
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Job execution time: average 1.09 s, max 10.97 s
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Job life time (pending + execution): average 1.89 s, max 13.56
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 103.12 s
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Jobs were issued in 499 batches (only local compilation was used), average 1.15 jobs/batch
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Average processing rate: 5.54 jobs/sec
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Total thread time: 243.596 s
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Total thread preprocess time: 10.756 s
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Percentage time preprocessing: 4.42%
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Effective parallelization: 2.36 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.71 sec, max 0.82 sec, min 0.60 sec)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.69 sec, max 0.84 sec, min 0.57 sec)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   11 times, average 0.68 sec, max 0.80 sec, min 0.58 sec)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display:    TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy (compiled   11 times, average 0.68 sec, max 0.83 sec, min 0.55 sec)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   11 times, average 0.68 sec, max 0.92 sec, min 0.55 sec)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display:                                               FNiagaraShader - 13.30% of total time (compiled  215 times, average 0.15 sec, max 1.68 sec, min 0.04 sec)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.17% of total time (compiled   43 times, average 0.63 sec, max 1.45 sec, min 0.46 sec)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.96% of total time (compiled   34 times, average 0.64 sec, max 1.65 sec, min 0.51 sec)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.30% of total time (compiled   37 times, average 0.48 sec, max 0.70 sec, min 0.37 sec)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.51% of total time (compiled   20 times, average 0.67 sec, max 0.84 sec, min 0.48 sec)
+[2024.02.19-13.48.30:633][517]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.48.31:345][549]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 2.253903 sec (time since issued), 3.499897 sec (combined shader worker time).
+[2024.02.19-13.48.31:522][556]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.48.51:693][567]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 2.108327 sec (time since issued), 6.516766 sec (combined shader worker time).
+[2024.02.19-13.48.51:792][567]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.48.51:825][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Niagara/Bullet/NS_Impact" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset" SILENT=true
+[2024.02.19-13.48.51:917][567]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Niagara/Bullet/NS_Impact
+[2024.02.19-13.48.51:917][567]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/NS_Impact5E5828884DA7AEA8BD55629EC0C9C487.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset'
+[2024.02.19-13.48.52:162][567]LogFileHelpers: InternalPromptForCheckoutAndSave took 369 ms (total: 24.9 sec)
+[2024.02.19-13.48.52:211][567]AssetCheck: New page: Asset Save: NS_Impact
+[2024.02.19-13.48.52:211][567]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact
+[2024.02.19-13.48.53:527][626]LogSlate: Window 'NS_Impact' being destroyed
+[2024.02.19-13.48.53:546][626]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.48.53:547][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.48.53:565][626]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.48.53:565][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.48.53:731][626]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2024.02.19-13.49.05:941][822]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets
+[2024.02.19-13.49.05:941][822]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.49.05:941][822]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.50.25:791][ 19]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content/DefaultAssets/Templates/Systems: 'E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content/DefaultAssets/Templates/Systems' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-13.51.27:519][327]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UNiagaraFunctionLibrary::SpawnSystemAtLocation' [Element not found.]
+[2024.02.19-13.51.30:852][699]BlueprintLog: New page: Compile BP_Bullets
+[2024.02.19-13.51.30:916][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.19-13.51.31:879][797]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.51.31:942][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bullets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset" SILENT=true
+[2024.02.19-13.51.31:952][797]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bullets
+[2024.02.19-13.51.31:952][797]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_Bullets78587649478904B1F3926DB1A430D77E.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset'
+[2024.02.19-13.51.31:963][797]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 25.0 sec)
+[2024.02.19-13.51.31:972][797]AssetCheck: New page: Asset Save: BP_Bullets
+[2024.02.19-13.51.31:972][797]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets
+[2024.02.19-13.51.59:330][923]BlueprintLog: New page: Compile BP_Bullets
+[2024.02.19-13.51.59:405][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.02.19-13.51.59:977][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.52.00:028][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bullets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset" SILENT=true
+[2024.02.19-13.52.00:036][974]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bullets
+[2024.02.19-13.52.00:037][974]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_Bullets3C32711B4C63854962A364A31FFFEFF2.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset'
+[2024.02.19-13.52.00:045][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 25.1 sec)
+[2024.02.19-13.52.00:053][974]AssetCheck: New page: Asset Save: BP_Bullets
+[2024.02.19-13.52.00:053][974]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets
+[2024.02.19-13.52.00:666][ 47]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.19-13.52.00:673][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.19-13.52.00:673][ 47]PIE: New page: PIE session: Test_Map (19-Feb-2024, 3:52:00 pm)
+[2024.02.19-13.52.00:673][ 47]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.52.00:677][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003342s)
+[2024.02.19-13.52.00:677][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.003388s)
+[2024.02.19-13.52.00:677][ 47]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.52.00:677][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.52.00:677][ 47]LogAIModule: Creating AISystem for world Test_Map
+[2024.02.19-13.52.00:678][ 47]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2024.02.19-13.52.00:707][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.02.19-13.52.00:713][ 47]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.02.19-13.52.00:714][ 47]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.19-13.52.00:714][ 47]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.19-13.52.00:714][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.19-13.52.00:714][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.19-13.52.00:714][ 47]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.19-13.52.00:714][ 47]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.19-13.52.00:714][ 47]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.19-13.52.00:714][ 47]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.19-13.52.00:714][ 47]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.19-13.52.00:714][ 47]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.19-13.52.00:714][ 47]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.19-13.52.00:717][ 47]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.19-13.52.00:744][ 47]LogAudioMixer: Display: Using Audio Hardware Device Headphones (BTS-10)
+[2024.02.19-13.52.00:744][ 47]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.19-13.52.00:744][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.19-13.52.00:744][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.19-13.52.00:745][ 47]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.02.19-13.52.00:745][ 47]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.02.19-13.52.00:747][ 47]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.02.19-13.52.00:747][ 47]LogInit: FAudioDevice initialized with ID 14.
+[2024.02.19-13.52.00:747][ 47]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.02.19-13.52.00:747][ 47]LogAudio: Display: Audio Device (ID: 14) registered with world 'Test_Map'.
+[2024.02.19-13.52.00:747][ 47]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.19-13.52.00:775][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.52.00:775][ 47]LogLoad: Game class is 'BP_GameModeTP_C'
+[2024.02.19-13.52.00:776][ 47]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2024.02.19-14.52.00
+[2024.02.19-13.52.00:777][ 47]LogWorld: Bringing up level for play took: 0.001706
+[2024.02.19-13.52.00:781][ 47]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2024.02.19-13.52.00:784][ 47]LogBlueprintUserMessages: [BP_Test_C_1] Particle
+[2024.02.19-13.52.00:786][ 47]PIE: Server logged in
+[2024.02.19-13.52.00:787][ 47]PIE: Play in editor total start time 0.114 seconds.
+[2024.02.19-13.52.00:798][ 47]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.02.19-13.52.14:386][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.52.14:387][950]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.52.14:387][950]LogSlate: Window 'ZombieGame Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.02.19-13.52.14:396][950]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.52.14:397][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.52.14:400][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.19-13.52.14:410][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.52.14:442][950]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.19-13.52.14:443][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.19-13.52.14:444][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.19-13.52.14:462][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.02.19-13.52.14:509][951]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2024.02.19-13.52.19:256][465]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact
+[2024.02.19-13.52.19:353][465]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.52.19:353][465]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.52.19:421][465]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.52.19:421][465]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.52.19:511][465]LogViewport: Scene viewport resized to 508x476, mode Windowed.
+[2024.02.19-13.52.19:755][471]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Total job queries 955, among them cache hits 172 (18.01%)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Tracking 781 distinct input hashes that result in 434 distinct outputs (55.57%)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: RAM used: 18.38 MiB of 819.20 MiB budget. Usage: 2.24%
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Shaders Compiled: 578
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Jobs assigned 580, completed 578 (99.66%)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Average time worker was idle: 53.62 s
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Time job spent in pending queue: average 0.79 s, longest 12.82 s
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Job execution time: average 1.09 s, max 10.97 s
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Job life time (pending + execution): average 1.88 s, max 13.56
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 105.87 s
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Jobs were issued in 507 batches (only local compilation was used), average 1.14 jobs/batch
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Average processing rate: 5.46 jobs/sec
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Total thread time: 247.747 s
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Total thread preprocess time: 10.756 s
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Percentage time preprocessing: 4.34%
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Effective parallelization: 2.34 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.71 sec, max 0.82 sec, min 0.60 sec)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.69 sec, max 0.84 sec, min 0.57 sec)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   11 times, average 0.68 sec, max 0.80 sec, min 0.58 sec)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display:    TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy (compiled   11 times, average 0.68 sec, max 0.83 sec, min 0.55 sec)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   11 times, average 0.68 sec, max 0.92 sec, min 0.55 sec)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display:                                               FNiagaraShader - 14.75% of total time (compiled  222 times, average 0.16 sec, max 1.68 sec, min 0.04 sec)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.98% of total time (compiled   43 times, average 0.63 sec, max 1.45 sec, min 0.46 sec)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.81% of total time (compiled   34 times, average 0.64 sec, max 1.65 sec, min 0.51 sec)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.18% of total time (compiled   37 times, average 0.48 sec, max 0.70 sec, min 0.37 sec)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.42% of total time (compiled   20 times, average 0.67 sec, max 0.84 sec, min 0.48 sec)
+[2024.02.19-13.52.26:793][866]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.52.28:536][940]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 2.585949 sec (time since issued), 4.970865 sec (combined shader worker time).
+[2024.02.19-13.52.28:719][947]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.53.30:592][884]LogViewport: Scene viewport resized to 507x489, mode Windowed.
+[2024.02.19-13.53.30:662][886]LogViewport: Scene viewport resized to 208x150, mode Windowed.
+[2024.02.19-13.53.31:047][916]LogViewport: Scene viewport resized to 508x476, mode Windowed.
+[2024.02.19-13.53.31:307][944]LogSlate: Window 'NS_Impact' being destroyed
+[2024.02.19-13.53.31:321][944]LogViewport: Scene viewport resized to 508x505, mode Windowed.
+[2024.02.19-13.53.31:369][945]LogViewport: Scene viewport resized to 508x494, mode Windowed.
+[2024.02.19-13.53.31:401][946]LogViewport: Scene viewport resized to 508x487, mode Windowed.
+[2024.02.19-13.53.31:429][947]LogViewport: Scene viewport resized to 508x481, mode Windowed.
+[2024.02.19-13.53.31:455][948]LogViewport: Scene viewport resized to 508x476, mode Windowed.
+[2024.02.19-13.53.46:689][699]BlueprintLog: New page: Compile BP_Bullets
+[2024.02.19-13.53.46:788][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.02.19-13.53.47:772][798]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.53.47:854][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bullets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset" SILENT=true
+[2024.02.19-13.53.47:863][798]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bullets
+[2024.02.19-13.53.47:864][798]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_Bullets60CE7D7940DCE6D5B869D6811570B8B9.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset'
+[2024.02.19-13.53.47:873][798]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 25.2 sec)
+[2024.02.19-13.53.47:883][798]AssetCheck: New page: Asset Save: BP_Bullets
+[2024.02.19-13.53.47:883][798]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets
+[2024.02.19-13.54.08:857][ 46]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 2.165893 sec (time since issued), 6.761436 sec (combined shader worker time).
+[2024.02.19-13.54.08:957][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.54.08:987][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Niagara/Bullet/NS_Impact" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset" SILENT=true
+[2024.02.19-13.54.09:045][ 46]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Niagara/Bullet/NS_Impact
+[2024.02.19-13.54.09:045][ 46]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/NS_Impact2E0BECC645997CE31CA8BA9B8E3733FE.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset'
+[2024.02.19-13.54.09:056][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 25.3 sec)
+[2024.02.19-13.54.09:103][ 46]AssetCheck: New page: Asset Save: NS_Impact
+[2024.02.19-13.54.09:103][ 46]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact
+[2024.02.19-13.54.28:610][835]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 1.813329 sec (time since issued), 4.453910 sec (combined shader worker time).
+[2024.02.19-13.54.28:719][835]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.54.28:750][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Niagara/Bullet/NS_Impact" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset" SILENT=true
+[2024.02.19-13.54.28:809][835]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Niagara/Bullet/NS_Impact
+[2024.02.19-13.54.28:811][835]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/NS_Impact289275FE435527F93FDF7A94CAD16A66.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset'
+[2024.02.19-13.54.28:823][835]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 25.4 sec)
+[2024.02.19-13.54.28:869][835]AssetCheck: New page: Asset Save: NS_Impact
+[2024.02.19-13.54.28:869][835]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact
+[2024.02.19-13.54.40:353][962]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.430170 sec (time since issued), 0.635136 sec (combined shader worker time).
+[2024.02.19-13.54.40:450][962]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.54.40:479][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Niagara/Bullet/NS_Impact" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset" SILENT=true
+[2024.02.19-13.54.40:538][962]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Niagara/Bullet/NS_Impact
+[2024.02.19-13.54.40:538][962]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/NS_Impact7D75C23F44EF4A35E999F2A483A97B3B.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset'
+[2024.02.19-13.54.40:549][962]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 25.5 sec)
+[2024.02.19-13.54.40:596][962]AssetCheck: New page: Asset Save: NS_Impact
+[2024.02.19-13.54.40:596][962]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact
+[2024.02.19-13.54.40:928][986]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.54.42:488][139]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.19-13.54.42:496][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.19-13.54.42:496][139]PIE: New page: PIE session: Test_Map (19-Feb-2024, 3:54:42 pm)
+[2024.02.19-13.54.42:496][139]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.54.42:502][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006397s)
+[2024.02.19-13.54.42:502][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.006437s)
+[2024.02.19-13.54.42:502][139]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.54.42:502][139]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.54.42:502][139]LogAIModule: Creating AISystem for world Test_Map
+[2024.02.19-13.54.42:502][139]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2024.02.19-13.54.42:547][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.02.19-13.54.42:554][139]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.02.19-13.54.42:554][139]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.19-13.54.42:554][139]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.19-13.54.42:554][139]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.19-13.54.42:554][139]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.19-13.54.42:554][139]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.19-13.54.42:554][139]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.19-13.54.42:554][139]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.19-13.54.42:554][139]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.19-13.54.42:554][139]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.19-13.54.42:554][139]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.19-13.54.42:554][139]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.19-13.54.42:557][139]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.19-13.54.42:582][139]LogAudioMixer: Display: Using Audio Hardware Device Headphones (BTS-10)
+[2024.02.19-13.54.42:582][139]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.19-13.54.42:582][139]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.19-13.54.42:582][139]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.19-13.54.42:584][139]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.02.19-13.54.42:584][139]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.02.19-13.54.42:585][139]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.02.19-13.54.42:585][139]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.02.19-13.54.42:585][139]LogInit: FAudioDevice initialized with ID 15.
+[2024.02.19-13.54.42:585][139]LogAudio: Display: Audio Device (ID: 15) registered with world 'Test_Map'.
+[2024.02.19-13.54.42:585][139]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.19-13.54.42:614][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.54.42:614][139]LogLoad: Game class is 'BP_GameModeTP_C'
+[2024.02.19-13.54.42:615][139]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2024.02.19-14.54.42
+[2024.02.19-13.54.42:616][139]LogWorld: Bringing up level for play took: 0.001587
+[2024.02.19-13.54.42:618][139]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.02.19-13.54.42:622][139]LogBlueprintUserMessages: [BP_Test_C_1] Particle
+[2024.02.19-13.54.42:625][139]PIE: Server logged in
+[2024.02.19-13.54.42:628][139]PIE: Play in editor total start time 0.132 seconds.
+[2024.02.19-13.54.42:667][139]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.02.19-13.54.52:163][912]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.54.52:163][912]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.54.52:163][912]LogSlate: Window 'ZombieGame Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.02.19-13.54.52:171][912]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.54.52:172][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.54.52:176][912]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.19-13.54.52:185][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.54.52:214][912]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.19-13.54.52:214][912]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.19-13.54.52:216][912]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.19-13.54.52:226][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.02.19-13.54.52:268][913]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.02.19-13.54.59:802][608]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.19-13.54.59:808][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.19-13.54.59:808][608]PIE: New page: PIE session: Test_Map (19-Feb-2024, 3:54:59 pm)
+[2024.02.19-13.54.59:808][608]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.54.59:812][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003119s)
+[2024.02.19-13.54.59:812][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.003158s)
+[2024.02.19-13.54.59:812][608]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.54.59:812][608]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.54.59:813][608]LogAIModule: Creating AISystem for world Test_Map
+[2024.02.19-13.54.59:813][608]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2024.02.19-13.54.59:838][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.02.19-13.54.59:842][608]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.02.19-13.54.59:842][608]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.19-13.54.59:842][608]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.19-13.54.59:842][608]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.19-13.54.59:842][608]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.19-13.54.59:842][608]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.19-13.54.59:842][608]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.19-13.54.59:842][608]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.19-13.54.59:842][608]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.19-13.54.59:842][608]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.19-13.54.59:842][608]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.19-13.54.59:842][608]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.19-13.54.59:844][608]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.19-13.54.59:868][608]LogAudioMixer: Display: Using Audio Hardware Device Headphones (BTS-10)
+[2024.02.19-13.54.59:868][608]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.19-13.54.59:868][608]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.19-13.54.59:868][608]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.19-13.54.59:869][608]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.02.19-13.54.59:869][608]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.02.19-13.54.59:871][608]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.02.19-13.54.59:871][608]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.02.19-13.54.59:871][608]LogInit: FAudioDevice initialized with ID 16.
+[2024.02.19-13.54.59:871][608]LogAudio: Display: Audio Device (ID: 16) registered with world 'Test_Map'.
+[2024.02.19-13.54.59:871][608]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.19-13.54.59:898][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.54.59:898][608]LogLoad: Game class is 'BP_GameModeTP_C'
+[2024.02.19-13.54.59:899][608]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2024.02.19-14.54.59
+[2024.02.19-13.54.59:899][608]LogWorld: Bringing up level for play took: 0.001231
+[2024.02.19-13.54.59:902][608]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2024.02.19-13.54.59:904][608]LogBlueprintUserMessages: [BP_Test_C_1] Particle
+[2024.02.19-13.54.59:908][608]PIE: Server logged in
+[2024.02.19-13.54.59:909][608]PIE: Play in editor total start time 0.101 seconds.
+[2024.02.19-13.54.59:944][608]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.02.19-13.55.06:073][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.55.06:073][155]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.55.06:073][155]LogSlate: Window 'ZombieGame Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.02.19-13.55.06:081][155]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.55.06:081][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.55.06:084][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.19-13.55.06:093][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.55.06:121][155]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.19-13.55.06:121][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.19-13.55.06:123][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.19-13.55.06:133][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.02.19-13.55.06:181][156]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2024.02.19-13.55.27:789][553]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.55.27:820][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Niagara/Bullet/NS_Impact" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset" SILENT=true
+[2024.02.19-13.55.27:877][553]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Niagara/Bullet/NS_Impact
+[2024.02.19-13.55.27:877][553]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/NS_Impact9683FB52490DF54636C102B5E0503E83.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset'
+[2024.02.19-13.55.27:890][553]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 25.6 sec)
+[2024.02.19-13.55.27:935][553]AssetCheck: New page: Asset Save: NS_Impact
+[2024.02.19-13.55.27:935][553]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact
+[2024.02.19-13.57.19:795][960]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.02.19-13.57.19:806][960]LogContentBrowser: Creating deferred item: NewFolder
+[2024.02.19-13.57.19:816][961]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.02.19-13.57.23:142][345]LogContentBrowser: Attempting asset rename: NewFolder -> Textures
+[2024.02.19-13.57.23:143][345]LogContentBrowser: End creating deferred item NewFolder
+[2024.02.19-13.57.32:351][114]LogInterchangeEngine: [Pending] Importing
+[2024.02.19-13.57.32:351][114]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/OM/Dow...wnload/Download637x558.png]
+[2024.02.19-13.57.32:442][115]LogInterchangeEngine: [Pending] Importing
+[2024.02.19-13.57.32:484][116]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2024.02.19-13.57.32:792][116]LogTexture: Display: Building textures: /Game/ThirdPerson/Assets/Textures/637x558.637x558 (BGRA8, 637x558 x1x1x1) (Required Memory Estimate: 11.813797 MB), EncodeSpeed: Fast
+[2024.02.19-13.57.32:864][116]LogInterchangeEngine: [Success] Import Done
+[2024.02.19-13.57.32:903][117]LogInterchangeEngine: [Success] Import Done
+[2024.02.19-13.57.36:111][126]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/ThirdPerson/Assets/Textures/637x558.637x558
+[2024.02.19-13.57.36:675][126]LogViewport: Scene viewport resized to 1424x890, mode Windowed.
+[2024.02.19-13.57.51:506][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.57.51:540][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Assets/Textures/637x558" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Assets/Textures/637x558.uasset" SILENT=true
+[2024.02.19-13.57.51:601][876]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Assets/Textures/637x558
+[2024.02.19-13.57.51:601][876]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/637x558ACF17B4F4EE94F930B3B3A983A796C66.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Assets/Textures/637x558.uasset'
+[2024.02.19-13.57.51:862][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 356 ms (total: 26.0 sec)
+[2024.02.19-13.57.51:871][876]AssetCheck: New page: Asset Save: 637x558
+[2024.02.19-13.57.51:872][876]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Assets/Textures/637x558.637x558
+[2024.02.19-13.58.02:961][559]LogContentBrowser: Attempting asset rename: 637x558 -> BulletHole
+[2024.02.19-13.58.03:667][559]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.58.03:706][559]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Assets/Textures/BulletHole
+[2024.02.19-13.58.03:706][559]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BulletHoleDFE9E04D414182BDE6B3EDAF45D60427.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Assets/Textures/BulletHole.uasset'
+[2024.02.19-13.58.03:982][559]LogFileHelpers: InternalPromptForCheckoutAndSave took 314 ms (total: 26.3 sec)
+[2024.02.19-13.58.04:219][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.02.19-13.58.04:252][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.02.19-13.58.04:279][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.02.19-13.58.04:401][559]SourceControl: rm 'Content/ThirdPerson/Assets/Textures/637x558.uasset'
+[2024.02.19-13.58.04:418][559]AssetCheck: New page: Asset Save: BulletHole
+[2024.02.19-13.58.04:418][559]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Assets/Textures/BulletHole.BulletHole
+[2024.02.19-13.58.09:352][ 86]LogContentBrowser: Attempting asset rename: BulletHole -> T_BulletHole
+[2024.02.19-13.58.10:022][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.58.10:060][ 86]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Assets/Textures/T_BulletHole
+[2024.02.19-13.58.10:060][ 86]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/T_BulletHole4D226509465584935605868F5D96720A.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Assets/Textures/T_BulletHole.uasset'
+[2024.02.19-13.58.10:427][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave took 404 ms (total: 26.7 sec)
+[2024.02.19-13.58.10:643][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.02.19-13.58.10:673][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.02.19-13.58.10:700][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.02.19-13.58.10:835][ 86]SourceControl: rm 'Content/ThirdPerson/Assets/Textures/BulletHole.uasset'
+[2024.02.19-13.58.10:849][ 86]AssetCheck: New page: Asset Save: T_BulletHole
+[2024.02.19-13.58.10:849][ 86]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/ThirdPerson/Assets/Textures/T_BulletHole.T_BulletHole
+[2024.02.19-13.58.14:427][411]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.02.19-13.58.14:479][411]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.02.19-13.58.14:494][412]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.02.19-13.58.19:403][906]LogContentBrowser: Attempting asset rename: NewMaterial -> M_BulletHole
+[2024.02.19-13.58.19:487][906]LogContentBrowser: End creating deferred item NewMaterial
+[2024.02.19-13.58.21:077][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.02.19-13.58.22:356][ 60]LogSlate: Window 'Save Content' being destroyed
+[2024.02.19-13.58.22:447][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.58.22:501][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Materials/M_BulletHole" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Materials/M_BulletHole.uasset" SILENT=true
+[2024.02.19-13.58.22:503][ 60]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Materials/M_BulletHole
+[2024.02.19-13.58.22:504][ 60]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/M_BulletHole1ACE15DB4C1C987205BF12873FBF0974.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Materials/M_BulletHole.uasset'
+[2024.02.19-13.58.22:700][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave took 252 ms (total: 26.9 sec)
+[2024.02.19-13.58.22:709][ 60]AssetCheck: New page: Asset Save: M_BulletHole
+[2024.02.19-13.58.22:709][ 60]LogContentValidation: Display: Validating /Script/Engine.Material /Game/ThirdPerson/Materials/M_BulletHole.M_BulletHole
+[2024.02.19-13.58.23:825][166]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPerson/Materials/M_BulletHole.M_BulletHole
+[2024.02.19-13.58.23:828][166]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.58.23:829][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.58.23:970][166]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-13.58.23:970][166]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.19-13.58.23:970][166]MaterialEditorStats: Shader Count: 0
+[2024.02.19-13.58.23:976][166]LogViewport: Scene viewport resized to 413x444, mode Windowed.
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Total job queries 968, among them cache hits 172 (17.77%)
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Tracking 793 distinct input hashes that result in 436 distinct outputs (54.98%)
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: RAM used: 18.68 MiB of 819.20 MiB budget. Usage: 2.28%
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Shaders Compiled: 590
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Jobs assigned 593, completed 590 (99.49%)
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Average time worker was idle: 55.04 s
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Time job spent in pending queue: average 0.77 s, longest 12.82 s
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Job execution time: average 1.09 s, max 10.97 s
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Job life time (pending + execution): average 1.86 s, max 13.56
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 111.65 s
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Jobs were issued in 520 batches (only local compilation was used), average 1.14 jobs/batch
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Average processing rate: 5.28 jobs/sec
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Total thread time: 254.563 s
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Total thread preprocess time: 10.78 s
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Percentage time preprocessing: 4.23%
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Effective parallelization: 2.28 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.19-13.58.24:707][243]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.71 sec, max 0.82 sec, min 0.60 sec)
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   11 times, average 0.69 sec, max 0.84 sec, min 0.57 sec)
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   11 times, average 0.68 sec, max 0.80 sec, min 0.58 sec)
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display:    TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy (compiled   11 times, average 0.68 sec, max 0.83 sec, min 0.55 sec)
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   11 times, average 0.68 sec, max 0.92 sec, min 0.55 sec)
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display:                                               FNiagaraShader - 16.88% of total time (compiled  233 times, average 0.18 sec, max 1.77 sec, min 0.04 sec)
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.69% of total time (compiled   43 times, average 0.63 sec, max 1.45 sec, min 0.46 sec)
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.58% of total time (compiled   34 times, average 0.64 sec, max 1.65 sec, min 0.51 sec)
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display:                                                  FHitProxyVS - 6.98% of total time (compiled   37 times, average 0.48 sec, max 0.70 sec, min 0.37 sec)
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.28% of total time (compiled   20 times, average 0.67 sec, max 0.84 sec, min 0.48 sec)
+[2024.02.19-13.58.24:708][243]LogShaderCompilers: Display: ================================================
+[2024.02.19-13.58.25:429][329]MaterialEditorStats: Base pass shader: 222 instructions
+[2024.02.19-13.58.25:429][329]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2024.02.19-13.58.25:429][329]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.19-13.58.25:429][329]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.19-13.58.25:429][329]MaterialEditorStats: Shader Count: 4
+[2024.02.19-13.58.57:899][846]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 0.332080 sec (time since issued), 0.293763 sec (combined shader worker time).
+[2024.02.19-13.58.58:002][846]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-13.58.58:032][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Niagara/Bullet/NS_Impact" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset" SILENT=true
+[2024.02.19-13.58.58:087][846]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Niagara/Bullet/NS_Impact
+[2024.02.19-13.58.58:088][846]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/NS_ImpactD81D287E4C07791AB506A1A38B5877B1.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset'
+[2024.02.19-13.58.58:098][846]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 27.0 sec)
+[2024.02.19-13.58.58:143][846]AssetCheck: New page: Asset Save: NS_Impact
+[2024.02.19-13.58.58:143][846]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact
+[2024.02.19-13.58.59:258][945]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.19-13.58.59:265][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.19-13.58.59:265][945]PIE: New page: PIE session: Test_Map (19-Feb-2024, 3:58:59 pm)
+[2024.02.19-13.58.59:265][945]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.58.59:268][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003117s)
+[2024.02.19-13.58.59:268][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map.Test_Map to /Game/Maps/UEDPIE_0_Test_Map.Test_Map (0.003156s)
+[2024.02.19-13.58.59:268][945]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-13.58.59:269][945]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.19-13.58.59:269][945]LogAIModule: Creating AISystem for world Test_Map
+[2024.02.19-13.58.59:269][945]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2024.02.19-13.58.59:297][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.02.19-13.58.59:299][945]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.02.19-13.58.59:299][945]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.19-13.58.59:299][945]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.19-13.58.59:299][945]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.19-13.58.59:299][945]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.19-13.58.59:299][945]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.19-13.58.59:299][945]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.19-13.58.59:299][945]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.19-13.58.59:299][945]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.19-13.58.59:301][945]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.19-13.58.59:301][945]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.19-13.58.59:301][945]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.19-13.58.59:303][945]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.19-13.58.59:328][945]LogAudioMixer: Display: Using Audio Hardware Device Headphones (BTS-10)
+[2024.02.19-13.58.59:328][945]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.19-13.58.59:328][945]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.19-13.58.59:328][945]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.19-13.58.59:329][945]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.02.19-13.58.59:329][945]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.02.19-13.58.59:330][945]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.02.19-13.58.59:330][945]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.02.19-13.58.59:330][945]LogInit: FAudioDevice initialized with ID 17.
+[2024.02.19-13.58.59:330][945]LogAudio: Display: Audio Device (ID: 17) registered with world 'Test_Map'.
+[2024.02.19-13.58.59:330][945]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.19-13.58.59:357][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.58.59:358][945]LogLoad: Game class is 'BP_GameModeTP_C'
+[2024.02.19-13.58.59:359][945]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map.Test_Map up for play (max tick rate 0) at 2024.02.19-14.58.59
+[2024.02.19-13.58.59:359][945]LogWorld: Bringing up level for play took: 0.001382
+[2024.02.19-13.58.59:361][945]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2024.02.19-13.58.59:364][945]LogBlueprintUserMessages: [BP_Test_C_1] Particle
+[2024.02.19-13.58.59:367][945]PIE: Server logged in
+[2024.02.19-13.58.59:369][945]PIE: Play in editor total start time 0.105 seconds.
+[2024.02.19-13.58.59:405][945]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.02.19-13.59.20:792][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.19-13.59.20:792][823]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test_Map
+[2024.02.19-13.59.20:793][823]LogSlate: Window 'ZombieGame Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.02.19-13.59.20:801][823]LogWorld: UWorld::CleanupWorld for Test_Map, bSessionEnded=true, bCleanupResources=true
+[2024.02.19-13.59.20:801][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.59.20:804][823]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.19-13.59.20:813][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.19-13.59.20:839][823]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.19-13.59.20:841][823]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.19-13.59.20:841][823]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.19-13.59.20:843][823]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.19-13.59.20:853][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.02.19-13.59.20:904][824]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2024.02.19-13.59.36:278][412]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.59.38:196][579]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 2.275162 sec (time since issued), 3.284260 sec (combined shader worker time).
+[2024.02.19-13.59.38:324][586]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.59.40:553][811]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.59.42:556][ 24]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.59.44:564][194]62912_NS_Impact_MessageLog: System compile status unknown.
+[2024.02.19-13.59.45:166][253]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact took 1.854140 sec (time since issued), 2.735953 sec (combined shader worker time).
+[2024.02.19-13.59.46:569][405]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-13.59.48:574][600]62912_NS_Impact_MessageLog: System successfully compiled.
+[2024.02.19-14.00.00:603][895]LogUMG: Warning: The requested size for SRetainerWidget is 0. W:431 H:0
+[2024.02.19-14.00.03:524][195]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-14.00.03:557][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Niagara/Bullet/NS_Impact" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset" SILENT=true
+[2024.02.19-14.00.03:619][195]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Niagara/Bullet/NS_Impact
+[2024.02.19-14.00.03:619][195]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/NS_Impact7B97A70C4FC5B723E7256295F30B5EE9.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset'
+[2024.02.19-14.00.03:631][195]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 27.1 sec)
+[2024.02.19-14.00.03:678][195]AssetCheck: New page: Asset Save: NS_Impact
+[2024.02.19-14.00.03:678][195]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/ThirdPerson/Niagara/Bullet/NS_Impact.NS_Impact
+[2024.02.19-14.00.17:184][136]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.00.17:184][136]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.19-14.00.17:184][136]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.00.17:235][138]MaterialEditorStats: Base pass shader: 222 instructions
+[2024.02.19-14.00.17:235][138]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2024.02.19-14.00.17:235][138]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.19-14.00.17:235][138]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.19-14.00.17:235][138]MaterialEditorStats: Shader Count: 4
+[2024.02.19-14.00.20:591][492]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'E:/Epic Games/UE_5.2/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.00.20:591][492]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Content/EngineLightProfiles: 'E:/Epic Games/UE_5.2/Engine/Content/EngineLightProfiles' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.00.20:591][492]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Content/EditorResources/Ai_Spawnpoint.uasset: 'E:/Epic Games/UE_5.2/Engine/Content/EditorResources/Ai_Spawnpoint.uasset' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.00.20:591][492]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Content/EngineResources: 'E:/Epic Games/UE_5.2/Engine/Content/EngineResources' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.00.22:053][604]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.19-14.00.23:322][732]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.00.23:322][732]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.19-14.00.23:322][732]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.00.24:186][827]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2024.02.19-14.00.24:187][827]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.00.24:187][827]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.19-14.00.24:187][827]MaterialEditorStats: Shader Count: 3
+[2024.02.19-14.00.24:795][899]MaterialEditorStats: Base pass shader: 222 instructions
+[2024.02.19-14.00.24:795][899]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2024.02.19-14.00.24:795][899]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.19-14.00.24:795][899]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.19-14.00.24:795][899]MaterialEditorStats: Shader Count: 4
+[2024.02.19-14.00.27:003][148]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.00.27:003][148]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.19-14.00.27:003][148]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.00.27:029][150]MaterialEditorStats: Base pass shader: 222 instructions
+[2024.02.19-14.00.27:029][150]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2024.02.19-14.00.27:029][150]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.19-14.00.27:029][150]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.19-14.00.27:029][150]MaterialEditorStats: Shader Count: 4
+[2024.02.19-14.00.33:403][894]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.00.33:403][894]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.00.33:403][894]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.00.33:403][894]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.00.33:928][953]MaterialEditorStats: Texture samplers: 1/16
+[2024.02.19-14.00.33:929][953]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.00.33:929][953]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.00.33:929][953]MaterialEditorStats: Shader Count: 1
+[2024.02.19-14.00.34:130][977]MaterialEditorStats: Base pass shader: 229 instructions
+[2024.02.19-14.00.34:130][977]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2024.02.19-14.00.34:130][977]MaterialEditorStats: Texture samplers: 5/16
+[2024.02.19-14.00.34:130][977]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.00.34:130][977]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.00.34:130][977]MaterialEditorStats: Shader Count: 4
+[2024.02.19-14.00.38:722][509]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.00.38:722][509]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.00.38:722][509]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.00.38:722][509]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.00.39:408][589]MaterialEditorStats: Base pass vertex shader: 286 instructions
+[2024.02.19-14.00.39:409][589]MaterialEditorStats: Texture samplers: 3/16
+[2024.02.19-14.00.39:409][589]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.00.39:409][589]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.00.39:409][589]MaterialEditorStats: Shader Count: 2
+[2024.02.19-14.00.41:987][888]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.00.41:987][888]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.00.41:987][888]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.00.41:987][888]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.00.42:691][970]MaterialEditorStats: Base pass vertex shader: 286 instructions
+[2024.02.19-14.00.42:691][970]MaterialEditorStats: Texture samplers: 3/16
+[2024.02.19-14.00.42:691][970]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.00.42:691][970]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.00.42:691][970]MaterialEditorStats: Shader Count: 2
+[2024.02.19-14.00.53:651][281]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.00.53:651][281]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.00.53:651][281]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.00.53:651][281]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.00.54:183][343]MaterialEditorStats: Base pass vertex shader: 286 instructions
+[2024.02.19-14.00.54:183][343]MaterialEditorStats: Texture samplers: 3/16
+[2024.02.19-14.00.54:183][343]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.00.54:183][343]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.00.54:183][343]MaterialEditorStats: Shader Count: 2
+[2024.02.19-14.00.56:314][586]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.00.56:314][586]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.00.56:314][586]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.00.56:314][586]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.00.56:363][588]MaterialEditorStats: Base pass vertex shader: 286 instructions
+[2024.02.19-14.00.56:363][588]MaterialEditorStats: Texture samplers: 3/16
+[2024.02.19-14.00.56:363][588]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.00.56:363][588]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.00.56:363][588]MaterialEditorStats: Shader Count: 2
+[2024.02.19-14.01.03:130][373]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.01.03:130][373]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.01.03:130][373]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.01.03:130][373]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.01.03:588][422]MaterialEditorStats: Texture samplers: 1/16
+[2024.02.19-14.01.03:588][422]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.01.03:588][422]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.01.03:588][422]MaterialEditorStats: Shader Count: 1
+[2024.02.19-14.01.06:182][728]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.01.06:182][728]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.01.06:182][728]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.01.06:182][728]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.01.07:357][867]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.01.07:357][867]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.19-14.01.07:357][867]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.01.14:595][721]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.19-14.01.14:595][721]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.01.14:595][721]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.01.14:595][721]MaterialEditorStats: Shader Count: 0
+[2024.02.19-14.01.16:759][964]MaterialEditorStats: Texture samplers: 1/16
+[2024.02.19-14.01.16:760][964]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.01.16:760][964]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.01.16:760][964]MaterialEditorStats: Shader Count: 2
+[2024.02.19-14.01.18:731][194]LogMaterialEditor: Saving and Compiling material M_BulletHole
+[2024.02.19-14.01.18:843][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.02.19-14.01.18:908][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.02.19-14.01.19:003][194]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-14.01.21:081][194]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2024.02.19-14.01.21:249][194]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000063s (0.168617s overbudget)
+[2024.02.19-14.01.21:283][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Materials/M_BulletHole" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Materials/M_BulletHole.uasset" SILENT=true
+[2024.02.19-14.01.21:285][194]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Materials/M_BulletHole
+[2024.02.19-14.01.21:286][194]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/M_BulletHoleA4283FCC42161CABE77D8EBB3A5503C9.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Materials/M_BulletHole.uasset'
+[2024.02.19-14.01.21:294][194]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.29 sec (total: 29.4 sec)
+[2024.02.19-14.01.21:304][194]AssetCheck: New page: Asset Save: M_BulletHole
+[2024.02.19-14.01.21:304][194]LogContentValidation: Display: Validating /Script/Engine.Material /Game/ThirdPerson/Materials/M_BulletHole.M_BulletHole
+[2024.02.19-14.01.21:310][194]MaterialEditorStats: Base pass shader: 198 instructions
+[2024.02.19-14.01.21:310][194]MaterialEditorStats: Base pass vertex shader: 286 instructions
+[2024.02.19-14.01.21:310][194]MaterialEditorStats: Texture samplers: 3/16
+[2024.02.19-14.01.21:310][194]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.02.19-14.01.21:310][194]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.19-14.01.21:310][194]MaterialEditorStats: Shader Count: 23
+[2024.02.19-14.05.42:816][220]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.19-14.05.42:849][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Bullets" FILE="../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset" SILENT=true
+[2024.02.19-14.05.42:858][220]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Bullets
+[2024.02.19-14.05.42:859][220]LogSavePackage: Moving '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Saved/BP_Bullets68F09D82483B41A1A13A75B537E668DD.tmp' to '../../../../../Unreal Projects/UE5/ZombieGame/ZombieGame/Content/ThirdPerson/Blueprints/BP_Bullets.uasset'
+[2024.02.19-14.05.42:871][220]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 29.5 sec)
+[2024.02.19-14.05.42:882][220]AssetCheck: New page: Asset Save: BP_Bullets
+[2024.02.19-14.05.42:882][220]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_Bullets.BP_Bullets
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Content: 'E:/Epic Games/UE_5.2/Engine/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Bridge/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Bridge/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/TraceUtilities/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/TraceUtilities/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRig/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Animation/IKRig/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaPlate/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Metasound/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Interchange/Runtime/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:136][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:137][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:137][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:137][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:137][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:137][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:137][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:137][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:137][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:137][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.49:137][802]SourceControl: fatal: E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'E:/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'E:/Unreal Projects/UE5/ZombieGame/ZombieGame'
+[2024.02.19-14.05.56:155][802]LogSlate: Window 'Submit Files' being destroyed
+[2024.02.19-14.05.57:686][802]LogSourceControl: commit successful: [main 2bc8e91] Bullet Added
+[2024.02.19-14.05.57:944][802]SourceControl: [main 2bc8e91] Bullet Added
+[2024.02.19-14.05.57:944][802]SourceControl:  9 files changed, 0 insertions(+), 0 deletions(-)
+[2024.02.19-14.05.57:944][802]SourceControl:  create mode 100644 Content/ThirdPerson/Assets/Textures/T_BulletHole.uasset
+[2024.02.19-14.05.57:944][802]SourceControl:  create mode 100644 Content/ThirdPerson/Blueprints/BP_Bullets.uasset
+[2024.02.19-14.05.57:944][802]SourceControl:  create mode 100644 Content/ThirdPerson/Materials/M_BulletHole.uasset
+[2024.02.19-14.05.57:944][802]SourceControl:  create mode 100644 Content/ThirdPerson/Niagara/Bullet/NS_BulletSmoke.uasset
+[2024.02.19-14.05.57:944][802]SourceControl:  create mode 100644 Content/ThirdPerson/Niagara/Bullet/NS_Impact.uasset
+[2024.02.19-14.05.57:958][802]SourceControl: Commited [main 2bc8e91] Bullet Added.
